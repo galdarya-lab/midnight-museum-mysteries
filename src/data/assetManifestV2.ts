@@ -84,7 +84,7 @@ export const museumV2Assets = {
   "characters/suspect_grey_mouse_3d": "/assets/museum/v2/characters/suspect_grey_mouse_3d.png",
   "characters/suspect_fox_3d": "/assets/museum/v2/characters/suspect_fox_3d.png",
   "backgrounds/security_hall_clean": "/assets/museum/v2/backgrounds/security_hall_clean.jpg",
-  "backgrounds/museum_intro_3d": "/assets/museum/v2/backgrounds/museum_intro_3d.jpg",
+  "backgrounds/museum_intro_3d": "/assets/museum/v2/repaired/museum_intro_no_owl.png",
   "backgrounds/clock_tower_3d": "/assets/museum/v2/backgrounds/clock_tower_3d.jpg",
   "backgrounds/dinosaur_gallery_3d": "/assets/museum/v2/backgrounds/dinosaur_gallery_3d.jpg",
   "backgrounds/egyptian_chamber_3d": "/assets/museum/v2/backgrounds/egyptian_chamber_3d.jpg",

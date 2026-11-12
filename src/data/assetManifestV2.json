@@ -52,12 +52,19 @@
       "mode": "RGB"
     },
     {
-      "path": "/assets/museum/v2/backgrounds/museum_intro_3d.jpg",
+      "path": "/assets/museum/v2/repaired/museum_intro_no_owl.png",
       "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "originalPath": "/assets/museum/v2/backgrounds/museum_intro_3d.jpg",
+      "originalSize": [
         1920,
         1080
       ],
-      "mode": "RGB"
+      "assetId": "backgrounds/museum_intro_3d",
+      "source": "imagegen_intro_remove_duplicate_owl"
     },
     {
       "path": "/assets/museum/v2/backgrounds/security_hall_clean.jpg",

@@ -1,0 +1,7 @@
+{
+  "method": "built-in imagegen edit",
+  "prompt": "Use case: precise-object-edit. Remove ONLY the entire large foreground owl detective from the lower-left of this museum lobby image, including its cap, magnifying glass, cape, body, wings and feet. Reconstruct the missing museum floor, wall, rope barrier and architectural details behind it naturally. Leave that space empty of characters. Preserve all other exhibits, dinosaur skeleton, moonlit windows, huge golden clock, red stairs, framed paintings, knight armor, Egyptian sarcophagus and cat statue, key display case, sofa, plants, lighting, composition, original widescreen 16:9 aspect ratio and polished colorful 3D storybook art style. No owl anywhere, no ghost silhouette or translucent remnants, no new characters, no text or logos. This will be a game home-screen background, with a separate opaque owl sprite overlaid by the application.",
+  "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-aa11f233-b471-493c-8922-e7da20c0235a.png",
+  "savedPath": "public/assets/museum/v2/repaired/museum_intro_no_owl.png",
+  "assetId": "backgrounds/museum_intro_3d"
+}
