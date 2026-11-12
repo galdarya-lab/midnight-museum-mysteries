@@ -10,5 +10,8 @@ import '../style.css';
 import '../scenes.js';
 import { createProceduralAssets } from './proceduralAssets';
 
-Object.assign(window, {GAME_DATA: museumGameV2, ASSETS: {...museumV2Assets,...createProceduralAssets()}, PAINTING_LAYOUT:paintingLayout, HOTSPOTS: hotspots, MuseumSession: session});
+// GitHub Pages serves project sites under /repository/; local and Sites builds
+// keep the default /. Resolve public assets using the same base as Vite's JS.
+const hostedAssets = Object.fromEntries(Object.entries(museumV2Assets).map(([id, url]) => [id, import.meta.env.BASE_URL + url.replace(/^\//, '')]));
+Object.assign(window, {GAME_DATA: museumGameV2, ASSETS: {...hostedAssets,...createProceduralAssets()}, PAINTING_LAYOUT:paintingLayout, HOTSPOTS: hotspots, MuseumSession: session});
 createRoot(document.getElementById('root')!).render(<App/>);
