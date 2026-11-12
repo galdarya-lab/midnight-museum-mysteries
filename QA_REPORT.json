@@ -1,0 +1,25 @@
+{
+  "expected_from_MD": 168,
+  "missing": [],
+  "counts_by_category": {
+    "backgrounds": 8,
+    "characters": 8,
+    "clock": 33,
+    "differences": 14,
+    "dinosaurs": 23,
+    "egypt": 24,
+    "evidence": 6,
+    "memory": 10,
+    "owners": 20,
+    "paintings": 12,
+    "professions": 14,
+    "ui": 15,
+    "visitors": 10
+  },
+  "number_digits": 12,
+  "difference_counts": [
+    5,
+    5
+  ],
+  "file_sizes_ok": true
+}

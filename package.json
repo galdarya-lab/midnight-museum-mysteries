@@ -1,0 +1,9 @@
+{
+  "name": "midnight-museum-mysteries",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Midnight Museum V2: 17 classroom activities and 170 rounds",
+  "scripts": {"dev":"vite --host 127.0.0.1 --port 8080", "build":"tsc --noEmit && vite build", "preview":"vite preview --host 127.0.0.1 --port 8080", "start":"node server.cjs", "test":"node tests/game.test.cjs"},
+  "dependencies":{"react":"^19.2.0","react-dom":"^19.2.0"},
+  "devDependencies": {"playwright": "^1.56.0","vite":"^7.2.0","typescript":"^5.9.0","@types/react":"^19.2.0","@types/react-dom":"^19.2.0"}
+}

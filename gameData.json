@@ -1,0 +1,1624 @@
+{
+  "title": "The Midnight Museum Mysteries",
+  "grade": "3–5",
+  "level": "A1",
+  "minutes": 50,
+  "language": "English",
+  "characterGuide": "Professor Hoot",
+  "trueCulprit": "Pip the mouse",
+  "story": "The Moon Key is missing. The museum clock has stopped. Pip borrowed the key to repair the clock; he did not intend to steal it.",
+  "introMinutes": 3,
+  "stations": [
+    {
+      "id": "station_1",
+      "name": "Security Hall",
+      "time": "03:00–10:00",
+      "seconds": 420,
+      "focus": "there is/are; colours; prepositions; descriptions",
+      "clue": "Small footprints",
+      "clueAsset": "/assets/museum/evidence/footprints.png",
+      "tasks": [
+        {
+          "id": "security_camera_check",
+          "title": "Security Camera Check",
+          "mechanic": "true_false",
+          "instruction": "Choose TRUE or FALSE from the *fixed* security-hall scene. Do not generate a new scene per question.",
+          "assetGroup": "security_scene.png",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "security_camera_check_01",
+              "index": 1,
+              "prompt": "There are two doors in the hall.",
+              "correct": true,
+              "explanation": "Two doors are visible.",
+              "required": true
+            },
+            {
+              "id": "security_camera_check_02",
+              "index": 2,
+              "prompt": "The clock is under the desk.",
+              "correct": false,
+              "explanation": "The clock is above the desk.",
+              "required": true
+            },
+            {
+              "id": "security_camera_check_03",
+              "index": 3,
+              "prompt": "There is a red bag next to the chair.",
+              "correct": true,
+              "explanation": "The red bag is next to the chair.",
+              "required": true
+            },
+            {
+              "id": "security_camera_check_04",
+              "index": 4,
+              "prompt": "There are three paintings on the wall.",
+              "correct": true,
+              "explanation": "Exactly three pictures are on the wall.",
+              "required": true
+            },
+            {
+              "id": "security_camera_check_05",
+              "index": 5,
+              "prompt": "The lamp is green.",
+              "correct": false,
+              "explanation": "The lamp is yellow.",
+              "required": true
+            },
+            {
+              "id": "security_camera_check_06",
+              "index": 6,
+              "prompt": "There is a ticket under the bench.",
+              "correct": true,
+              "explanation": "A ticket is under the bench.",
+              "required": true
+            },
+            {
+              "id": "security_camera_check_07",
+              "index": 7,
+              "prompt": "The guard has got a blue hat.",
+              "correct": true,
+              "explanation": "The guard has a blue hat.",
+              "required": false
+            },
+            {
+              "id": "security_camera_check_08",
+              "index": 8,
+              "prompt": "The window is open.",
+              "correct": false,
+              "explanation": "The window is closed.",
+              "required": false
+            },
+            {
+              "id": "security_camera_check_09",
+              "index": 9,
+              "prompt": "There are four keys on the desk.",
+              "correct": false,
+              "explanation": "There are two keys on the desk.",
+              "required": false
+            },
+            {
+              "id": "security_camera_check_10",
+              "index": 10,
+              "prompt": "The plant is next to the stairs.",
+              "correct": true,
+              "explanation": "The plant is near the stairs.",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "magic_flashlight",
+          "title": "Magic Flashlight",
+          "mechanic": "find_object",
+          "instruction": "Reveal the scene with a circular flashlight mask; students identify the object in each instruction. Hide each found item in the inventory.",
+          "assetGroup": "flashlight_objects",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "magic_flashlight_01",
+              "index": 1,
+              "prompt": "Find the red ticket.",
+              "correct": "ticket_red.png",
+              "required": true
+            },
+            {
+              "id": "magic_flashlight_02",
+              "index": 2,
+              "prompt": "Find the blue hat.",
+              "correct": "hat_blue.png",
+              "required": true
+            },
+            {
+              "id": "magic_flashlight_03",
+              "index": 3,
+              "prompt": "Find the yellow torch.",
+              "correct": "torch_yellow.png",
+              "required": true
+            },
+            {
+              "id": "magic_flashlight_04",
+              "index": 4,
+              "prompt": "Find the green backpack.",
+              "correct": "backpack_green.png",
+              "required": true
+            },
+            {
+              "id": "magic_flashlight_05",
+              "index": 5,
+              "prompt": "Find the silver key.",
+              "correct": "key_silver.png",
+              "required": true
+            },
+            {
+              "id": "magic_flashlight_06",
+              "index": 6,
+              "prompt": "Find the brown book.",
+              "correct": "book_brown.png",
+              "required": true
+            },
+            {
+              "id": "magic_flashlight_07",
+              "index": 7,
+              "prompt": "Find the white glove.",
+              "correct": "glove_white.png",
+              "required": false
+            },
+            {
+              "id": "magic_flashlight_08",
+              "index": 8,
+              "prompt": "Find the purple umbrella.",
+              "correct": "umbrella_purple.png",
+              "required": false
+            },
+            {
+              "id": "magic_flashlight_09",
+              "index": 9,
+              "prompt": "Find the black camera.",
+              "correct": "camera_black.png",
+              "required": false
+            },
+            {
+              "id": "magic_flashlight_10",
+              "index": 10,
+              "prompt": "Find the orange ball.",
+              "correct": "ball_orange.png",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "ticket_machine",
+          "title": "The Ticket Machine",
+          "mechanic": "portrait_match",
+          "instruction": "Show exactly 10 visitors with stable visible attributes. Display one clue at a time; click correct portrait. Use portraits as illustration cards, not random generated models.",
+          "assetGroup": "visitors",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "ticket_machine_01",
+              "index": 1,
+              "prompt": "The boy has got a red cap.",
+              "correct": "visitor_01.png",
+              "required": true
+            },
+            {
+              "id": "ticket_machine_02",
+              "index": 2,
+              "prompt": "The girl is wearing a green dress.",
+              "correct": "visitor_02.png",
+              "required": true
+            },
+            {
+              "id": "ticket_machine_03",
+              "index": 3,
+              "prompt": "The man has got a black hat.",
+              "correct": "visitor_03.png",
+              "required": true
+            },
+            {
+              "id": "ticket_machine_04",
+              "index": 4,
+              "prompt": "The woman is holding a yellow bag.",
+              "correct": "visitor_04.png",
+              "required": true
+            },
+            {
+              "id": "ticket_machine_05",
+              "index": 5,
+              "prompt": "The boy has got blue shoes.",
+              "correct": "visitor_05.png",
+              "required": true
+            },
+            {
+              "id": "ticket_machine_06",
+              "index": 6,
+              "prompt": "The girl is wearing a purple jacket.",
+              "correct": "visitor_06.png",
+              "required": true
+            },
+            {
+              "id": "ticket_machine_07",
+              "index": 7,
+              "prompt": "The man has got glasses.",
+              "correct": "visitor_07.png",
+              "required": false
+            },
+            {
+              "id": "ticket_machine_08",
+              "index": 8,
+              "prompt": "The woman is holding a red umbrella.",
+              "correct": "visitor_08.png",
+              "required": false
+            },
+            {
+              "id": "ticket_machine_09",
+              "index": 9,
+              "prompt": "The boy is wearing an orange T-shirt.",
+              "correct": "visitor_09.png",
+              "required": false
+            },
+            {
+              "id": "ticket_machine_10",
+              "index": 10,
+              "prompt": "The girl has got a pink scarf.",
+              "correct": "visitor_10.png",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "station_2",
+      "name": "Dinosaur Gallery",
+      "time": "10:00–17:00",
+      "seconds": 420,
+      "focus": "body parts; have got; can; present continuous",
+      "clue": "Grey fur",
+      "clueAsset": "/assets/museum/evidence/grey_fur.png",
+      "tasks": [
+        {
+          "id": "build_dinosaur",
+          "title": "Build the Dinosaur",
+          "mechanic": "drag_drop",
+          "instruction": "Use 10 separate bones and 10 fixed target zones. Add accessible click-to-select + click-to-place fallback; place parts in order.",
+          "assetGroup": "bone_parts",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "build_dinosaur_01",
+              "index": 1,
+              "prompt": "Put the head above the neck.",
+              "correct": "head",
+              "required": true
+            },
+            {
+              "id": "build_dinosaur_02",
+              "index": 2,
+              "prompt": "Put the neck above the body.",
+              "correct": "neck",
+              "required": true
+            },
+            {
+              "id": "build_dinosaur_03",
+              "index": 3,
+              "prompt": "Put the body in the middle.",
+              "correct": "body",
+              "required": true
+            },
+            {
+              "id": "build_dinosaur_04",
+              "index": 4,
+              "prompt": "Put the tail behind the body.",
+              "correct": "tail",
+              "required": true
+            },
+            {
+              "id": "build_dinosaur_05",
+              "index": 5,
+              "prompt": "Put the left arm on the left.",
+              "correct": "left_arm",
+              "required": true
+            },
+            {
+              "id": "build_dinosaur_06",
+              "index": 6,
+              "prompt": "Put the right arm on the right.",
+              "correct": "right_arm",
+              "required": true
+            },
+            {
+              "id": "build_dinosaur_07",
+              "index": 7,
+              "prompt": "Put the left leg under the body.",
+              "correct": "left_leg",
+              "required": false
+            },
+            {
+              "id": "build_dinosaur_08",
+              "index": 8,
+              "prompt": "Put the right leg under the body.",
+              "correct": "right_leg",
+              "required": false
+            },
+            {
+              "id": "build_dinosaur_09",
+              "index": 9,
+              "prompt": "Put the left foot under the left leg.",
+              "correct": "left_foot",
+              "required": false
+            },
+            {
+              "id": "build_dinosaur_10",
+              "index": 10,
+              "prompt": "Put the right foot under the right leg.",
+              "correct": "right_foot",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "who_am_i",
+          "title": "Who Am I?",
+          "mechanic": "choice_3",
+          "instruction": "Show T-Rex, Triceratops and Brachiosaurus large on the screen at the same time. Click the dinosaur described.",
+          "assetGroup": "dinosaurs",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "who_am_i_01",
+              "index": 1,
+              "prompt": "I have got two short arms.",
+              "correct": "t_rex",
+              "required": true
+            },
+            {
+              "id": "who_am_i_02",
+              "index": 2,
+              "prompt": "I have got three horns.",
+              "correct": "triceratops",
+              "required": true
+            },
+            {
+              "id": "who_am_i_03",
+              "index": 3,
+              "prompt": "I have got a very long neck.",
+              "correct": "brachiosaurus",
+              "required": true
+            },
+            {
+              "id": "who_am_i_04",
+              "index": 4,
+              "prompt": "I have got a big head shield.",
+              "correct": "triceratops",
+              "required": true
+            },
+            {
+              "id": "who_am_i_05",
+              "index": 5,
+              "prompt": "I have got sharp teeth.",
+              "correct": "t_rex",
+              "required": true
+            },
+            {
+              "id": "who_am_i_06",
+              "index": 6,
+              "prompt": "I have got a long neck and a small head.",
+              "correct": "brachiosaurus",
+              "required": true
+            },
+            {
+              "id": "who_am_i_07",
+              "index": 7,
+              "prompt": "I can run on two legs.",
+              "correct": "t_rex",
+              "required": false
+            },
+            {
+              "id": "who_am_i_08",
+              "index": 8,
+              "prompt": "I have got a horn on my nose.",
+              "correct": "triceratops",
+              "required": false
+            },
+            {
+              "id": "who_am_i_09",
+              "index": 9,
+              "prompt": "I can eat leaves from tall trees.",
+              "correct": "brachiosaurus",
+              "required": false
+            },
+            {
+              "id": "who_am_i_10",
+              "index": 10,
+              "prompt": "I am big and I eat meat.",
+              "correct": "t_rex",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "moving_dinosaurs",
+          "title": "The Moving Dinosaurs",
+          "mechanic": "find_character",
+          "instruction": "Find each unique colour/action dinosaur from a set of 10 labelled, visually distinct character cards; gentle CSS motions are enough.",
+          "assetGroup": "dino_actions",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "moving_dinosaurs_01",
+              "index": 1,
+              "prompt": "The red dinosaur is running.",
+              "correct": "dino_action_01",
+              "required": true
+            },
+            {
+              "id": "moving_dinosaurs_02",
+              "index": 2,
+              "prompt": "The green dinosaur is drinking water.",
+              "correct": "dino_action_02",
+              "required": true
+            },
+            {
+              "id": "moving_dinosaurs_03",
+              "index": 3,
+              "prompt": "The blue dinosaur is sleeping.",
+              "correct": "dino_action_03",
+              "required": true
+            },
+            {
+              "id": "moving_dinosaurs_04",
+              "index": 4,
+              "prompt": "The yellow dinosaur is eating leaves.",
+              "correct": "dino_action_04",
+              "required": true
+            },
+            {
+              "id": "moving_dinosaurs_05",
+              "index": 5,
+              "prompt": "The orange dinosaur is jumping.",
+              "correct": "dino_action_05",
+              "required": true
+            },
+            {
+              "id": "moving_dinosaurs_06",
+              "index": 6,
+              "prompt": "The purple dinosaur is hiding behind a rock.",
+              "correct": "dino_action_06",
+              "required": true
+            },
+            {
+              "id": "moving_dinosaurs_07",
+              "index": 7,
+              "prompt": "The little dinosaur is playing with a ball.",
+              "correct": "dino_action_07",
+              "required": false
+            },
+            {
+              "id": "moving_dinosaurs_08",
+              "index": 8,
+              "prompt": "The big dinosaur is walking slowly.",
+              "correct": "dino_action_08",
+              "required": false
+            },
+            {
+              "id": "moving_dinosaurs_09",
+              "index": 9,
+              "prompt": "The baby dinosaur is sitting in a nest.",
+              "correct": "dino_action_09",
+              "required": false
+            },
+            {
+              "id": "moving_dinosaurs_10",
+              "index": 10,
+              "prompt": "The brown dinosaur is looking at a bird.",
+              "correct": "dino_action_10",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "station_3",
+      "name": "The Living Paintings",
+      "time": "17:00–24:00",
+      "seconds": 420,
+      "focus": "prepositions; descriptions; have got; there is/are",
+      "clue": "A long tail",
+      "clueAsset": "/assets/museum/evidence/long_tail.png",
+      "tasks": [
+        {
+          "id": "repair_paintings",
+          "title": "Repair the Paintings",
+          "mechanic": "drag_drop",
+          "instruction": "Split ten placements across two pictures: first 5 village, next 5 castle. Each target slot must exist and be shown in exactly one place.",
+          "assetGroup": "painting_objects",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "repair_paintings_01",
+              "index": 1,
+              "prompt": "Put the sun above the house.",
+              "correct": "sun",
+              "required": true
+            },
+            {
+              "id": "repair_paintings_02",
+              "index": 2,
+              "prompt": "Put the blue bird in the tree.",
+              "correct": "bird_blue",
+              "required": true
+            },
+            {
+              "id": "repair_paintings_03",
+              "index": 3,
+              "prompt": "Put the cat under the bench.",
+              "correct": "cat",
+              "required": true
+            },
+            {
+              "id": "repair_paintings_04",
+              "index": 4,
+              "prompt": "Put two flowers in front of the house.",
+              "correct": "flowers_two",
+              "required": true
+            },
+            {
+              "id": "repair_paintings_05",
+              "index": 5,
+              "prompt": "Put the boat on the lake.",
+              "correct": "boat",
+              "required": true
+            },
+            {
+              "id": "repair_paintings_06",
+              "index": 6,
+              "prompt": "Put the moon above the castle.",
+              "correct": "moon",
+              "required": true
+            },
+            {
+              "id": "repair_paintings_07",
+              "index": 7,
+              "prompt": "Put the owl on the castle roof.",
+              "correct": "owl_small",
+              "required": false
+            },
+            {
+              "id": "repair_paintings_08",
+              "index": 8,
+              "prompt": "Put a red flag on the tower.",
+              "correct": "flag_red",
+              "required": false
+            },
+            {
+              "id": "repair_paintings_09",
+              "index": 9,
+              "prompt": "Put three stars in the sky.",
+              "correct": "stars_three",
+              "required": false
+            },
+            {
+              "id": "repair_paintings_10",
+              "index": 10,
+              "prompt": "Put the little dragon behind the castle.",
+              "correct": "dragon_small",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "talking_portraits",
+          "title": "The Talking Portraits",
+          "mechanic": "listening_match",
+          "instruction": "Native speaker reads without text first; on Replay reveal English subtitle. Five portraits, each matched twice.",
+          "assetGroup": "portraits",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "talking_portraits_01",
+              "index": 1,
+              "prompt": "I have got a gold crown.",
+              "correct": "king",
+              "required": true
+            },
+            {
+              "id": "talking_portraits_02",
+              "index": 2,
+              "prompt": "I am sitting on a throne.",
+              "correct": "king",
+              "required": true
+            },
+            {
+              "id": "talking_portraits_03",
+              "index": 3,
+              "prompt": "I am wearing a red hat.",
+              "correct": "artist",
+              "required": true
+            },
+            {
+              "id": "talking_portraits_04",
+              "index": 4,
+              "prompt": "I have got a paintbrush.",
+              "correct": "artist",
+              "required": true
+            },
+            {
+              "id": "talking_portraits_05",
+              "index": 5,
+              "prompt": "I have got a black eye patch.",
+              "correct": "pirate",
+              "required": true
+            },
+            {
+              "id": "talking_portraits_06",
+              "index": 6,
+              "prompt": "I have got a treasure chest.",
+              "correct": "pirate",
+              "required": true
+            },
+            {
+              "id": "talking_portraits_07",
+              "index": 7,
+              "prompt": "I am wearing glasses.",
+              "correct": "scientist",
+              "required": false
+            },
+            {
+              "id": "talking_portraits_08",
+              "index": 8,
+              "prompt": "I am holding a blue bottle.",
+              "correct": "scientist",
+              "required": false
+            },
+            {
+              "id": "talking_portraits_09",
+              "index": 9,
+              "prompt": "I am wearing a green dress.",
+              "correct": "princess",
+              "required": false
+            },
+            {
+              "id": "talking_portraits_10",
+              "index": 10,
+              "prompt": "I have got a white cat.",
+              "correct": "princess",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "changing_picture",
+          "title": "The Changing Picture",
+          "mechanic": "spot_difference",
+          "instruction": "Two pairs, five differences per pair, 10 total. PNGs are programmatically composited from identical bases. Click target hotspot and say an English sentence.",
+          "assetGroup": "spot_difference",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "changing_picture_01",
+              "index": 1,
+              "prompt": "The bird is blue in picture B.",
+              "correct": "village_bird",
+              "required": true
+            },
+            {
+              "id": "changing_picture_02",
+              "index": 2,
+              "prompt": "There are two apples in picture B.",
+              "correct": "village_apples",
+              "required": true
+            },
+            {
+              "id": "changing_picture_03",
+              "index": 3,
+              "prompt": "The door is open in picture B.",
+              "correct": "village_door",
+              "required": true
+            },
+            {
+              "id": "changing_picture_04",
+              "index": 4,
+              "prompt": "The flowers are yellow in picture B.",
+              "correct": "village_flowers",
+              "required": true
+            },
+            {
+              "id": "changing_picture_05",
+              "index": 5,
+              "prompt": "The cat is under the table in picture B.",
+              "correct": "village_cat",
+              "required": true
+            },
+            {
+              "id": "changing_picture_06",
+              "index": 6,
+              "prompt": "The flag is green in picture B.",
+              "correct": "castle_flag",
+              "required": true
+            },
+            {
+              "id": "changing_picture_07",
+              "index": 7,
+              "prompt": "There are two stars in picture B.",
+              "correct": "castle_stars",
+              "required": false
+            },
+            {
+              "id": "changing_picture_08",
+              "index": 8,
+              "prompt": "The dragon is behind the castle in picture B.",
+              "correct": "castle_dragon",
+              "required": false
+            },
+            {
+              "id": "changing_picture_09",
+              "index": 9,
+              "prompt": "The left window is dark in picture B.",
+              "correct": "castle_window",
+              "required": false
+            },
+            {
+              "id": "changing_picture_10",
+              "index": 10,
+              "prompt": "The boat is not on the lake in picture B.",
+              "correct": "castle_boat",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "station_4",
+      "name": "Egyptian Chamber",
+      "time": "24:00–31:00",
+      "seconds": 420,
+      "focus": "word order; vocabulary; clothes; prepositions; imperatives",
+      "clue": "Gold dust",
+      "clueAsset": "/assets/museum/evidence/gold_dust.png",
+      "tasks": [
+        {
+          "id": "decode_hieroglyphs",
+          "title": "Decode the Hieroglyphs",
+          "mechanic": "symbol_choice",
+          "instruction": "Ten sentences; replace one word with a pictogram. Choices must contain 1 correct + 2 plausible incorrect terms. Children read complete sentence after choosing.",
+          "assetGroup": "hieroglyphs",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "decode_hieroglyphs_01",
+              "index": 1,
+              "prompt": "The [SUN] is yellow.",
+              "correct": "sun",
+              "required": true
+            },
+            {
+              "id": "decode_hieroglyphs_02",
+              "index": 2,
+              "prompt": "The [CAT] is sleeping.",
+              "correct": "cat",
+              "required": true
+            },
+            {
+              "id": "decode_hieroglyphs_03",
+              "index": 3,
+              "prompt": "The [SNAKE] is long.",
+              "correct": "snake",
+              "required": true
+            },
+            {
+              "id": "decode_hieroglyphs_04",
+              "index": 4,
+              "prompt": "The [BOAT] is on the river.",
+              "correct": "boat",
+              "required": true
+            },
+            {
+              "id": "decode_hieroglyphs_05",
+              "index": 5,
+              "prompt": "The [MOON] is white.",
+              "correct": "moon",
+              "required": true
+            },
+            {
+              "id": "decode_hieroglyphs_06",
+              "index": 6,
+              "prompt": "The [BIRD] can fly.",
+              "correct": "bird",
+              "required": true
+            },
+            {
+              "id": "decode_hieroglyphs_07",
+              "index": 7,
+              "prompt": "The king has got a [CROWN].",
+              "correct": "crown",
+              "required": false
+            },
+            {
+              "id": "decode_hieroglyphs_08",
+              "index": 8,
+              "prompt": "The [STAR] is blue.",
+              "correct": "star",
+              "required": false
+            },
+            {
+              "id": "decode_hieroglyphs_09",
+              "index": 9,
+              "prompt": "The [EYE] is big.",
+              "correct": "eye",
+              "required": false
+            },
+            {
+              "id": "decode_hieroglyphs_10",
+              "index": 10,
+              "prompt": "The [KEY] is small.",
+              "correct": "key",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "dress_mummy",
+          "title": "Dress the Mummy",
+          "mechanic": "dress_up",
+          "instruction": "Place 10 wearables or handheld props on the mummy. Step 9 is a removal and must reverse the hat state.",
+          "assetGroup": "mummy_clothes",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "dress_mummy_01",
+              "index": 1,
+              "prompt": "Put a blue hat on the mummy.",
+              "correct": "hat_blue",
+              "required": true
+            },
+            {
+              "id": "dress_mummy_02",
+              "index": 2,
+              "prompt": "Put a red scarf around its neck.",
+              "correct": "scarf_red",
+              "required": true
+            },
+            {
+              "id": "dress_mummy_03",
+              "index": 3,
+              "prompt": "Give the mummy a green bag.",
+              "correct": "bag_green",
+              "required": true
+            },
+            {
+              "id": "dress_mummy_04",
+              "index": 4,
+              "prompt": "Put two gold bracelets on its arms.",
+              "correct": "bracelets_gold",
+              "required": true
+            },
+            {
+              "id": "dress_mummy_05",
+              "index": 5,
+              "prompt": "Put purple shoes on its feet.",
+              "correct": "shoes_purple",
+              "required": true
+            },
+            {
+              "id": "dress_mummy_06",
+              "index": 6,
+              "prompt": "Put a silver ring on its hand.",
+              "correct": "ring_silver",
+              "required": true
+            },
+            {
+              "id": "dress_mummy_07",
+              "index": 7,
+              "prompt": "Put a white belt around its waist.",
+              "correct": "belt_white",
+              "required": false
+            },
+            {
+              "id": "dress_mummy_08",
+              "index": 8,
+              "prompt": "Give the mummy a small book.",
+              "correct": "book_small",
+              "required": false
+            },
+            {
+              "id": "dress_mummy_09",
+              "index": 9,
+              "prompt": "Take off the blue hat.",
+              "correct": "remove_hat_blue",
+              "required": false
+            },
+            {
+              "id": "dress_mummy_10",
+              "index": 10,
+              "prompt": "Put a golden crown on its head.",
+              "correct": "crown_gold",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "pyramid_maze",
+          "title": "Escape the Pyramid",
+          "mechanic": "maze",
+          "instruction": "Show a ten-checkpoint route with arrow controls. Each instruction consumes one checkpoint and triggers a visual animation; keyboard arrows work too.",
+          "assetGroup": "maze",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "pyramid_maze_01",
+              "index": 1,
+              "prompt": "Go straight to the first door.",
+              "correct": "checkpoint_01",
+              "required": true
+            },
+            {
+              "id": "pyramid_maze_02",
+              "index": 2,
+              "prompt": "Turn left at the cat statue.",
+              "correct": "checkpoint_02",
+              "required": true
+            },
+            {
+              "id": "pyramid_maze_03",
+              "index": 3,
+              "prompt": "Go right at the big vase.",
+              "correct": "checkpoint_03",
+              "required": true
+            },
+            {
+              "id": "pyramid_maze_04",
+              "index": 4,
+              "prompt": "Walk past the green snake.",
+              "correct": "checkpoint_04",
+              "required": true
+            },
+            {
+              "id": "pyramid_maze_05",
+              "index": 5,
+              "prompt": "Stop next to the golden box.",
+              "correct": "checkpoint_05",
+              "required": true
+            },
+            {
+              "id": "pyramid_maze_06",
+              "index": 6,
+              "prompt": "Go straight to the blue door.",
+              "correct": "checkpoint_06",
+              "required": true
+            },
+            {
+              "id": "pyramid_maze_07",
+              "index": 7,
+              "prompt": "Turn right at the two torches.",
+              "correct": "checkpoint_07",
+              "required": false
+            },
+            {
+              "id": "pyramid_maze_08",
+              "index": 8,
+              "prompt": "Go left at the river.",
+              "correct": "checkpoint_08",
+              "required": false
+            },
+            {
+              "id": "pyramid_maze_09",
+              "index": 9,
+              "prompt": "Walk over the bridge.",
+              "correct": "checkpoint_09",
+              "required": false
+            },
+            {
+              "id": "pyramid_maze_10",
+              "index": 10,
+              "prompt": "Open the door with the moon.",
+              "correct": "checkpoint_10",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "station_5",
+      "name": "Lost & Found Office",
+      "time": "31:00–38:00",
+      "seconds": 420,
+      "focus": "memory; object names; possessives; descriptions",
+      "clue": "A note: “I want to help.”",
+      "clueAsset": "/assets/museum/evidence/note_help.png",
+      "tasks": [
+        {
+          "id": "disappeared",
+          "title": "What Has Disappeared?",
+          "mechanic": "memory",
+          "instruction": "Display ten distinct cards for 12–15 seconds; hide the cover for each fast round. One item disappears per round; preserve other nine in fixed positions. Give four answer options if pupils struggle.",
+          "assetGroup": "memory_items",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "disappeared_01",
+              "index": 1,
+              "prompt": "The yellow hat is missing.",
+              "correct": "hat_yellow",
+              "required": true
+            },
+            {
+              "id": "disappeared_02",
+              "index": 2,
+              "prompt": "The blue cup is missing.",
+              "correct": "cup_blue",
+              "required": true
+            },
+            {
+              "id": "disappeared_03",
+              "index": 3,
+              "prompt": "The silver coin is missing.",
+              "correct": "coin_silver",
+              "required": true
+            },
+            {
+              "id": "disappeared_04",
+              "index": 4,
+              "prompt": "The red star is missing.",
+              "correct": "star_red",
+              "required": true
+            },
+            {
+              "id": "disappeared_05",
+              "index": 5,
+              "prompt": "The golden bell is missing.",
+              "correct": "bell_gold",
+              "required": true
+            },
+            {
+              "id": "disappeared_06",
+              "index": 6,
+              "prompt": "The purple book is missing.",
+              "correct": "book_purple",
+              "required": true
+            },
+            {
+              "id": "disappeared_07",
+              "index": 7,
+              "prompt": "The white glove is missing.",
+              "correct": "glove_white",
+              "required": false
+            },
+            {
+              "id": "disappeared_08",
+              "index": 8,
+              "prompt": "The green scarf is missing.",
+              "correct": "scarf_green",
+              "required": false
+            },
+            {
+              "id": "disappeared_09",
+              "index": 9,
+              "prompt": "The red apple is missing.",
+              "correct": "apple_red",
+              "required": false
+            },
+            {
+              "id": "disappeared_10",
+              "index": 10,
+              "prompt": "The small spoon is missing.",
+              "correct": "spoon_small",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "whose_is_it",
+          "title": "Whose Is It?",
+          "mechanic": "owner_match",
+          "instruction": "Ten owners on left / ten possessions right. Put only one characteristic item per owner; auto snap correct matches.",
+          "assetGroup": "owner_items",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "whose_is_it_01",
+              "index": 1,
+              "prompt": "The artist has got a paintbrush.",
+              "correctOwner": "artist",
+              "correctItem": "paintbrush",
+              "required": true
+            },
+            {
+              "id": "whose_is_it_02",
+              "index": 2,
+              "prompt": "The explorer has got a map.",
+              "correctOwner": "explorer",
+              "correctItem": "map",
+              "required": true
+            },
+            {
+              "id": "whose_is_it_03",
+              "index": 3,
+              "prompt": "The king has got a crown.",
+              "correctOwner": "king",
+              "correctItem": "crown",
+              "required": true
+            },
+            {
+              "id": "whose_is_it_04",
+              "index": 4,
+              "prompt": "The scientist has got a blue bottle.",
+              "correctOwner": "scientist",
+              "correctItem": "bottle_blue",
+              "required": true
+            },
+            {
+              "id": "whose_is_it_05",
+              "index": 5,
+              "prompt": "The pirate has got a compass.",
+              "correctOwner": "pirate",
+              "correctItem": "compass",
+              "required": true
+            },
+            {
+              "id": "whose_is_it_06",
+              "index": 6,
+              "prompt": "The guard has got a torch.",
+              "correctOwner": "guard",
+              "correctItem": "torch",
+              "required": true
+            },
+            {
+              "id": "whose_is_it_07",
+              "index": 7,
+              "prompt": "The cook has got a spoon.",
+              "correctOwner": "cook",
+              "correctItem": "spoon",
+              "required": false
+            },
+            {
+              "id": "whose_is_it_08",
+              "index": 8,
+              "prompt": "The girl has got a pink ribbon.",
+              "correctOwner": "girl",
+              "correctItem": "ribbon_pink",
+              "required": false
+            },
+            {
+              "id": "whose_is_it_09",
+              "index": 9,
+              "prompt": "The boy has got a toy dinosaur.",
+              "correctOwner": "boy",
+              "correctItem": "toy_dinosaur",
+              "required": false
+            },
+            {
+              "id": "whose_is_it_10",
+              "index": 10,
+              "prompt": "The queen has got a golden necklace.",
+              "correctOwner": "queen",
+              "correctItem": "necklace_gold",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "evidence_board",
+          "title": "The Detective Evidence Board",
+          "mechanic": "true_false",
+          "instruction": "Show pinned evidence pictures 1–5; answers are directly grounded in the inventory and fixed scene.",
+          "assetGroup": "evidence_board",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "evidence_board_01",
+              "index": 1,
+              "prompt": "The footprints are small.",
+              "correct": true,
+              "explanation": "The prints are tiny.",
+              "required": true
+            },
+            {
+              "id": "evidence_board_02",
+              "index": 2,
+              "prompt": "The footprints are on the ceiling.",
+              "correct": false,
+              "explanation": "The prints are on the floor.",
+              "required": true
+            },
+            {
+              "id": "evidence_board_03",
+              "index": 3,
+              "prompt": "There is grey fur on the floor.",
+              "correct": true,
+              "explanation": "Grey fur was found in Gallery 2.",
+              "required": true
+            },
+            {
+              "id": "evidence_board_04",
+              "index": 4,
+              "prompt": "The fur is pink.",
+              "correct": false,
+              "explanation": "The fur is grey.",
+              "required": true
+            },
+            {
+              "id": "evidence_board_05",
+              "index": 5,
+              "prompt": "There is a long tail in the photo.",
+              "correct": true,
+              "explanation": "The picture showed a long tail.",
+              "required": true
+            },
+            {
+              "id": "evidence_board_06",
+              "index": 6,
+              "prompt": "The Moon Key is made of wood.",
+              "correct": false,
+              "explanation": "The Moon Key is golden.",
+              "required": true
+            },
+            {
+              "id": "evidence_board_07",
+              "index": 7,
+              "prompt": "There is gold dust on the stairs.",
+              "correct": true,
+              "explanation": "Gold dust was found near the chamber stairs.",
+              "required": false
+            },
+            {
+              "id": "evidence_board_08",
+              "index": 8,
+              "prompt": "The note says, “I want to help.”",
+              "correct": true,
+              "explanation": "These are the exact words.",
+              "required": false
+            },
+            {
+              "id": "evidence_board_09",
+              "index": 9,
+              "prompt": "The museum window is broken.",
+              "correct": false,
+              "explanation": "The window is closed and unbroken.",
+              "required": false
+            },
+            {
+              "id": "evidence_board_10",
+              "index": 10,
+              "prompt": "The clock is working.",
+              "correct": false,
+              "explanation": "The clock is still stopped.",
+              "required": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "station_6",
+      "name": "The Clock Tower",
+      "time": "38:00–45:00",
+      "seconds": 420,
+      "focus": "numbers; missing words; grammar revision; deduction",
+      "clue": "Pip and the Moon Key",
+      "clueAsset": "/assets/museum/evidence/pip_moon_key.png",
+      "tasks": [
+        {
+          "id": "fix_clock",
+          "title": "Fix the Giant Clock",
+          "mechanic": "clock_placement",
+          "instruction": "A full 12-hour clock: 10 and 11 are already fixed and the remaining ten positions are empty. Number tokens are draggable.",
+          "assetGroup": "clock_numbers",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "fix_clock_01",
+              "index": 1,
+              "prompt": "Put twelve at the top.",
+              "correct": 12,
+              "required": true
+            },
+            {
+              "id": "fix_clock_02",
+              "index": 2,
+              "prompt": "Put six at the bottom.",
+              "correct": 6,
+              "required": true
+            },
+            {
+              "id": "fix_clock_03",
+              "index": 3,
+              "prompt": "Put three on the right.",
+              "correct": 3,
+              "required": true
+            },
+            {
+              "id": "fix_clock_04",
+              "index": 4,
+              "prompt": "Put nine on the left.",
+              "correct": 9,
+              "required": true
+            },
+            {
+              "id": "fix_clock_05",
+              "index": 5,
+              "prompt": "Put one after twelve.",
+              "correct": 1,
+              "required": true
+            },
+            {
+              "id": "fix_clock_06",
+              "index": 6,
+              "prompt": "Put two after one.",
+              "correct": 2,
+              "required": true
+            },
+            {
+              "id": "fix_clock_07",
+              "index": 7,
+              "prompt": "Put four after three.",
+              "correct": 4,
+              "required": false
+            },
+            {
+              "id": "fix_clock_08",
+              "index": 8,
+              "prompt": "Put five after four.",
+              "correct": 5,
+              "required": false
+            },
+            {
+              "id": "fix_clock_09",
+              "index": 9,
+              "prompt": "Put seven after six.",
+              "correct": 7,
+              "required": false
+            },
+            {
+              "id": "fix_clock_10",
+              "index": 10,
+              "prompt": "Put eight after seven.",
+              "correct": 8,
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "broken_sentences",
+          "title": "Repair the Broken Sentences",
+          "mechanic": "multiple_choice",
+          "instruction": "One short sentence with two answer buttons; each right answer spins a gear.",
+          "assetGroup": "gears",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "broken_sentences_01",
+              "index": 1,
+              "prompt": "There ___ a key in the box.",
+              "choices": [
+                "is",
+                "are"
+              ],
+              "correct": "is",
+              "required": true
+            },
+            {
+              "id": "broken_sentences_02",
+              "index": 2,
+              "prompt": "There ___ three doors in the hall.",
+              "choices": [
+                "is",
+                "are"
+              ],
+              "correct": "are",
+              "required": true
+            },
+            {
+              "id": "broken_sentences_03",
+              "index": 3,
+              "prompt": "The cat is ___ the table.",
+              "choices": [
+                "under",
+                "between"
+              ],
+              "correct": "under",
+              "required": true
+            },
+            {
+              "id": "broken_sentences_04",
+              "index": 4,
+              "prompt": "The dinosaur ___ got a long tail.",
+              "choices": [
+                "has",
+                "have"
+              ],
+              "correct": "has",
+              "required": true
+            },
+            {
+              "id": "broken_sentences_05",
+              "index": 5,
+              "prompt": "The paintings ___ moving.",
+              "choices": [
+                "is",
+                "are"
+              ],
+              "correct": "are",
+              "required": true
+            },
+            {
+              "id": "broken_sentences_06",
+              "index": 6,
+              "prompt": "The mummy is ___ a hat.",
+              "choices": [
+                "wearing",
+                "wear"
+              ],
+              "correct": "wearing",
+              "required": true
+            },
+            {
+              "id": "broken_sentences_07",
+              "index": 7,
+              "prompt": "The owl ___ fly.",
+              "choices": [
+                "can",
+                "can’t"
+              ],
+              "correct": "can",
+              "required": false
+            },
+            {
+              "id": "broken_sentences_08",
+              "index": 8,
+              "prompt": "The mouse is ___ the clock.",
+              "choices": [
+                "behind",
+                "under"
+              ],
+              "correct": "behind",
+              "required": false
+            },
+            {
+              "id": "broken_sentences_09",
+              "index": 9,
+              "prompt": "___ there two lamps?",
+              "choices": [
+                "Is",
+                "Are"
+              ],
+              "correct": "Are",
+              "required": false
+            },
+            {
+              "id": "broken_sentences_10",
+              "index": 10,
+              "prompt": "The clock ___ working.",
+              "choices": [
+                "isn’t",
+                "aren’t"
+              ],
+              "correct": "isn’t",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "final_suspect",
+          "title": "Who Took the Moon Key?",
+          "mechanic": "true_false",
+          "instruction": "Show suspects Owl, Cat, Bat, Fox, Mouse plus accumulated evidence. Present true/false characteristics then click mouse.",
+          "assetGroup": "suspects",
+          "seconds": 120,
+          "questions": [
+            {
+              "id": "final_suspect_01",
+              "index": 1,
+              "prompt": "The mystery animal is small.",
+              "correct": true,
+              "explanation": "Small pawprints point to a small animal.",
+              "required": true
+            },
+            {
+              "id": "final_suspect_02",
+              "index": 2,
+              "prompt": "It has got grey fur.",
+              "correct": true,
+              "explanation": "Grey fur.",
+              "required": true
+            },
+            {
+              "id": "final_suspect_03",
+              "index": 3,
+              "prompt": "It has got a long tail.",
+              "correct": true,
+              "explanation": "Long tail.",
+              "required": true
+            },
+            {
+              "id": "final_suspect_04",
+              "index": 4,
+              "prompt": "It has got wings.",
+              "correct": false,
+              "explanation": "Pip has no wings.",
+              "required": true
+            },
+            {
+              "id": "final_suspect_05",
+              "index": 5,
+              "prompt": "It can fly.",
+              "correct": false,
+              "explanation": "Pip cannot fly.",
+              "required": true
+            },
+            {
+              "id": "final_suspect_06",
+              "index": 6,
+              "prompt": "It has got big round ears.",
+              "correct": true,
+              "explanation": "Mouse ears.",
+              "required": true
+            },
+            {
+              "id": "final_suspect_07",
+              "index": 7,
+              "prompt": "It is wearing a gold crown.",
+              "correct": false,
+              "explanation": "Pip has brass goggles, not a crown.",
+              "required": false
+            },
+            {
+              "id": "final_suspect_08",
+              "index": 8,
+              "prompt": "It is hiding in the clock.",
+              "correct": true,
+              "explanation": "Pip is inside the clock mechanism.",
+              "required": false
+            },
+            {
+              "id": "final_suspect_09",
+              "index": 9,
+              "prompt": "It has got the Moon Key.",
+              "correct": true,
+              "explanation": "Pip is holding the key.",
+              "required": false
+            },
+            {
+              "id": "final_suspect_10",
+              "index": 10,
+              "prompt": "It wants to help.",
+              "correct": true,
+              "explanation": "The message says so.",
+              "required": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finaleMinutes": 5,
+  "questionCount": 180,
+  "mode": "teacher-led projected classroom game",
+  "controls": [
+    "Next",
+    "Back",
+    "Repeat",
+    "Skip",
+    "Hint",
+    "Restart station",
+    "Evidence notebook",
+    "Teacher mode"
+  ],
+  "settings": {
+    "fullQuestions": 10,
+    "requiredQuestions": 6,
+    "bonusQuestions": 4,
+    "feedback": true,
+    "scoring": "no penalties",
+    "hints": true,
+    "stationSeconds": 420,
+    "introSeconds": 180,
+    "finaleSeconds": 300,
+    "timerPolicy": "soft countdown; optional; auto-prompt to switch to quick mode at <60s"
+  }
+}

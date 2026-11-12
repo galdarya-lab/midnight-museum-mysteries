@@ -1,0 +1,8 @@
+{
+  "total_assets": 197,
+  "new_and_replaced_file_count": 69,
+  "cleaned_and_refined": 48,
+  "retained_spot_difference_hotspots": true,
+  "structural_errors": [],
+  "quality_notes": "Spot difference stays controlled, 5 hotspots per pair; confirm visual changes in game. 3D items from sprite sheets have finite per-object native resolution; thumbnails are enlarged only by display. Some other (older) small items remain in a simpler illustrated style."
+}

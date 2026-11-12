@@ -1,0 +1,112 @@
+[
+  {
+    "id": "gallery_1",
+    "method": "built-in imagegen edit; canvas packages the five regions",
+    "prompt": "Use case: precise-object-edit. Edit this exact framed museum girl and cat illustration for a spot-the-difference game. Preserve original composition and positions, framing, image dimensions/aspect ratio and all unmentioned details as closely as possible. Exactly five localized changes: 1 replace the small golden star badge on girl's purple beret with a small golden crescent moon badge in the exact same location; 2 recolor cat's red collar blue, retain its gold medallion and natural fabric shape; 3 in the small rectangular gold-framed mountain landscape on upper right wall, replace ONLY the scenery inside that frame with a mountain waterfall, keep exact frame; 4 recolor the yellow glass lampshade on right purple, keeping light, shadows, outline, golden frame and lamp stem; 5 replace the foremost large pink lily flower in the vase beside cat with one clearly recognizable yellow sunflower and brown center, matching painting style. No pasted blocks, circles, rectangles or simple geometric stickers. Each alteration must look naturally painted into this existing detailed 3D storybook art. Do not change other flowers, faces, girl, cat, books, furniture, borders or positions.",
+    "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-69b1e6b8-2b10-42d4-ac8b-08751e6c1b83.png",
+    "savedPath": "public/assets/museum/v2/repaired/differences/gallery_1_edited_source.png",
+    "patches": [
+      {
+        "id": "gallery_1_hat_moon",
+        "box": [
+          218,
+          303,
+          68,
+          65
+        ]
+      },
+      {
+        "id": "gallery_1_collar_blue",
+        "box": [
+          505,
+          560,
+          108,
+          46
+        ]
+      },
+      {
+        "id": "gallery_1_waterfall",
+        "box": [
+          786,
+          276,
+          169,
+          101
+        ]
+      },
+      {
+        "id": "gallery_1_lamp_purple",
+        "box": [
+          765,
+          400,
+          225,
+          150
+        ]
+      },
+      {
+        "id": "gallery_1_sunflower",
+        "box": [
+          676,
+          417,
+          119,
+          119
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gallery_2",
+    "method": "built-in imagegen edit; canvas packages the five regions",
+    "prompt": "Use case: precise-object-edit. Edit this exact framed fantasy castle illustration for a spot-the-difference game. Preserve composition, framing, every object's position and scale, original dimensions/aspect ratio and original pixels as closely as possible. Exactly five localized changes: 1 replace the large full moon with a glowing crescent moon in the exact same sky location; remove the original full moon completely. 2 recolor the red waving flag at the top center of castle to rich blue, keeping its natural fabric folds and golden fleur-de-lis. 3 replace the flying red dragon at left with a lovely blue flying bird about the same size, with spread feathered wings, matching painterly 3D style, remove the entire dragon. 4 add one small glowing star beside the two prominent stars in the upper-right sky, forming a group of three. 5 replace the golden castle emblem on the purple book cover in foreground with a beautifully painted golden five-point star aligned with the book's perspective. No flat geometric stickers, no rectangular pasted panels, no labels, no other changes. All five alterations should look naturally painted into the existing artwork.",
+    "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-5920ff0b-ee19-465d-826d-09449315e5e6.png",
+    "savedPath": "public/assets/museum/v2/repaired/differences/gallery_2_edited_source.png",
+    "patches": [
+      {
+        "id": "gallery_2_crescent_moon",
+        "box": [
+          275,
+          60,
+          200,
+          185
+        ],
+        "feather": 22
+      },
+      {
+        "id": "gallery_2_blue_flag",
+        "box": [
+          598,
+          73,
+          142,
+          85
+        ]
+      },
+      {
+        "id": "gallery_2_blue_bird",
+        "box": [
+          100,
+          145,
+          255,
+          205
+        ],
+        "feather": 12
+      },
+      {
+        "id": "gallery_2_three_stars",
+        "box": [
+          770,
+          86,
+          130,
+          115
+        ]
+      },
+      {
+        "id": "gallery_2_book_star",
+        "box": [
+          620,
+          636,
+          145,
+          87
+        ]
+      }
+    ]
+  }
+]

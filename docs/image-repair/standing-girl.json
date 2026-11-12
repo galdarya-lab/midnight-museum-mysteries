@@ -1,0 +1,8 @@
+{
+  "id": "owner_girl_standing",
+  "method": "built-in imagegen generation and background extraction",
+  "prompt": "A charming storybook game character: a friendly smiling girl standing upright, wearing a pink bow in her brown hair, a pastel cardigan, blue trousers and sneakers. Polished warm 3D cartoon illustration, full figure from head to shoes, centered with clear empty margins on every side, transparent background. Single character only, no furniture, no text.",
+  "finishingPrompt": "Use case: background-extraction. Produce a clean transparent game sprite from the reference. Keep exactly this standing girl, pink hair bow, striped cardigan, blue jeans and pink shoes. Remove all backdrop, haze, glow and shadow around her completely. Real transparent pixels outside the crisp silhouette. Place her entire figure centered on a square transparent canvas with 8% empty padding above hair bow and below shoes and ample room at sides. No body parts cropped, do not change clothing or face. The character is opaque, background fully transparent.",
+  "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-5a8629a4-f5e6-4e1b-85c9-05129a3bde5f.png",
+  "savedPath": "public/assets/museum/v2/repaired/owner_girl_standing.png"
+}

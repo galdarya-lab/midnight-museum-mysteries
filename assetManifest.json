@@ -1,0 +1,1496 @@
+{
+  "characters.professor_hoot": {
+    "path": "/assets/museum/characters/professor_hoot.png",
+    "size": [
+      1162,
+      1308
+    ],
+    "description": "Friendly owl detective, primary mascot",
+    "source": "QA_repaired_v2"
+  },
+  "characters.pip_mouse": {
+    "path": "/assets/museum/characters/pip_mouse.png",
+    "size": [
+      1176,
+      1277
+    ],
+    "description": "3D cartoon character pip_mouse",
+    "source": "QA_repaired_v2"
+  },
+  "characters.mummy": {
+    "path": "/assets/museum/characters/mummy.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character mummy",
+    "source": "QA_repaired_v2"
+  },
+  "characters.museum_cat": {
+    "path": "/assets/museum/characters/museum_cat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "3D cartoon character museum_cat",
+    "source": "cropped_art_atlas"
+  },
+  "characters.bat": {
+    "path": "/assets/museum/characters/bat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "3D cartoon character bat",
+    "source": "cropped_art_atlas"
+  },
+  "characters.fox": {
+    "path": "/assets/museum/characters/fox.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "3D cartoon character fox",
+    "source": "cropped_art_atlas"
+  },
+  "characters.explorer_boy": {
+    "path": "/assets/museum/characters/explorer_boy.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character explorer_boy",
+    "source": "QA_repaired_v2"
+  },
+  "characters.explorer_girl": {
+    "path": "/assets/museum/characters/explorer_girl.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character explorer_girl",
+    "source": "QA_repaired_v2"
+  },
+  "characters.king": {
+    "path": "/assets/museum/characters/king.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character king",
+    "source": "QA_repaired_v2"
+  },
+  "characters.artist": {
+    "path": "/assets/museum/characters/artist.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character artist",
+    "source": "QA_repaired_v2"
+  },
+  "characters.pirate": {
+    "path": "/assets/museum/characters/pirate.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character pirate",
+    "source": "QA_repaired_v2"
+  },
+  "characters.scientist": {
+    "path": "/assets/museum/characters/scientist.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character scientist",
+    "source": "QA_repaired_v2"
+  },
+  "characters.princess": {
+    "path": "/assets/museum/characters/princess.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character princess",
+    "source": "QA_repaired_v2"
+  },
+  "characters.queen": {
+    "path": "/assets/museum/characters/queen.png",
+    "size": [
+      432,
+      608
+    ],
+    "description": "3D cartoon character queen",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.intro_museum": {
+    "path": "/assets/museum/backgrounds/intro_museum.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "description": "Wide main hall with grand clock, artifacts and Professor Hoot",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.finale_museum": {
+    "path": "/assets/museum/backgrounds/finale_museum.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "description": "All five suspects together in museum",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.security_hall": {
+    "path": "/assets/museum/backgrounds/security_hall.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Concept background for security_hall; low-detail atlas upscale",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.dinosaur_gallery": {
+    "path": "/assets/museum/backgrounds/dinosaur_gallery.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Concept background for dinosaur_gallery; low-detail atlas upscale",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.living_paintings": {
+    "path": "/assets/museum/backgrounds/living_paintings.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Concept background for living_paintings; low-detail atlas upscale",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.egyptian_chamber": {
+    "path": "/assets/museum/backgrounds/egyptian_chamber.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Concept background for egyptian_chamber; low-detail atlas upscale",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.lost_found_office": {
+    "path": "/assets/museum/backgrounds/lost_found_office.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Concept background for lost_found_office; low-detail atlas upscale",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.clock_tower": {
+    "path": "/assets/museum/backgrounds/clock_tower.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Concept background for clock_tower; low-detail atlas upscale",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.museum_poster": {
+    "path": "/assets/museum/backgrounds/museum_poster.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "description": "High resolution museum illustration",
+    "source": "QA_repaired_v2"
+  },
+  "objects.moon_key": {
+    "path": "/assets/museum/objects/moon_key.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum moon_key item",
+    "source": "cropped_art_atlas"
+  },
+  "objects.magnifier": {
+    "path": "/assets/museum/objects/magnifier.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum magnifier item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.compass": {
+    "path": "/assets/museum/objects/compass.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum compass item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.map": {
+    "path": "/assets/museum/objects/map.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum map item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.book_brown": {
+    "path": "/assets/museum/objects/book_brown.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum book_brown item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.ticket_red": {
+    "path": "/assets/museum/objects/ticket_red.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum ticket_red item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.backpack_green": {
+    "path": "/assets/museum/objects/backpack_green.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum backpack_green item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.hat_blue": {
+    "path": "/assets/museum/objects/hat_blue.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum hat_blue item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.glove_white": {
+    "path": "/assets/museum/objects/glove_white.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum glove_white item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.umbrella_purple": {
+    "path": "/assets/museum/objects/umbrella_purple.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum umbrella_purple item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.crown_gold": {
+    "path": "/assets/museum/objects/crown_gold.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum crown_gold item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.scarf_red": {
+    "path": "/assets/museum/objects/scarf_red.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum scarf_red item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.belt_white": {
+    "path": "/assets/museum/objects/belt_white.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum belt_white item",
+    "source": "QA_repaired_v2"
+  },
+  "objects.shoes_purple": {
+    "path": "/assets/museum/objects/shoes_purple.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum shoes_purple item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_head": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_head.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_head item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_neck": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_neck.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_neck item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_body": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_body.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_body item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_tail": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_tail.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_tail item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_left_arm": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_left_arm.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_left_arm item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_right_arm": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_right_arm.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_right_arm item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_left_leg": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_left_leg.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_left_leg item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_right_leg": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_right_leg.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_right_leg item",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.bone_foot": {
+    "path": "/assets/museum/dinosaurs/skeleton/bone_foot.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Glossy museum bone_foot item",
+    "source": "QA_repaired_v2"
+  },
+  "characters.suspect_owl": {
+    "path": "/assets/museum/characters/suspect_owl.png",
+    "size": [
+      1168,
+      1281
+    ],
+    "description": "Suspect owl",
+    "source": "generated"
+  },
+  "characters.suspect_cat": {
+    "path": "/assets/museum/characters/suspect_cat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Suspect cat",
+    "source": "generated"
+  },
+  "characters.suspect_bat": {
+    "path": "/assets/museum/characters/suspect_bat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Suspect bat",
+    "source": "generated"
+  },
+  "characters.suspect_fox": {
+    "path": "/assets/museum/characters/suspect_fox.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Suspect fox",
+    "source": "generated"
+  },
+  "characters.suspect_mouse": {
+    "path": "/assets/museum/characters/suspect_mouse.png",
+    "size": [
+      1176,
+      1277
+    ],
+    "description": "Suspect mouse",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.t_rex": {
+    "path": "/assets/museum/dinosaurs/t_rex.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Dinosaur illustration used for guess the dinosaur; supplement with accurate CSS labels",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.triceratops": {
+    "path": "/assets/museum/dinosaurs/triceratops.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Dinosaur illustration used for guess the dinosaur; supplement with accurate CSS labels",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.brachiosaurus": {
+    "path": "/assets/museum/dinosaurs/brachiosaurus.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Dinosaur illustration used for guess the dinosaur; supplement with accurate CSS labels",
+    "source": "QA_repaired_v2"
+  },
+  "evidence.footprints": {
+    "path": "/assets/museum/evidence/footprints.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Clue: footprints",
+    "source": "QA_repaired_v2"
+  },
+  "evidence.grey_fur": {
+    "path": "/assets/museum/evidence/grey_fur.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Clue: grey_fur",
+    "source": "QA_repaired_v2"
+  },
+  "evidence.long_tail": {
+    "path": "/assets/museum/evidence/long_tail.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Clue: long_tail",
+    "source": "QA_repaired_v2"
+  },
+  "evidence.gold_dust": {
+    "path": "/assets/museum/evidence/gold_dust.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Clue: gold_dust",
+    "source": "QA_repaired_v2"
+  },
+  "evidence.note_help": {
+    "path": "/assets/museum/evidence/note_help.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Clue: note_help",
+    "source": "QA_repaired_v2"
+  },
+  "evidence.pip_moon_key": {
+    "path": "/assets/museum/evidence/pip_moon_key.png",
+    "size": [
+      1176,
+      1277
+    ],
+    "description": "Clue: pip_moon_key",
+    "source": "QA_repaired_v2"
+  },
+  "ui.hint": {
+    "path": "/assets/museum/ui/hint.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "UI button icon hint",
+    "source": "procedural_png"
+  },
+  "ui.correct": {
+    "path": "/assets/museum/ui/correct.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "UI button icon correct",
+    "source": "procedural_png"
+  },
+  "ui.wrong": {
+    "path": "/assets/museum/ui/wrong.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "UI button icon wrong",
+    "source": "procedural_png"
+  },
+  "ui.evidence": {
+    "path": "/assets/museum/ui/evidence.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "UI button icon evidence",
+    "source": "procedural_png"
+  },
+  "ui.next": {
+    "path": "/assets/museum/ui/next.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "UI button icon next",
+    "source": "procedural_png"
+  },
+  "ui.back": {
+    "path": "/assets/museum/ui/back.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "UI button icon back",
+    "source": "procedural_png"
+  },
+  "clock.number_01": {
+    "path": "/assets/museum/clock/number_01.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 1",
+    "source": "procedural_png"
+  },
+  "clock.number_02": {
+    "path": "/assets/museum/clock/number_02.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 2",
+    "source": "procedural_png"
+  },
+  "clock.number_03": {
+    "path": "/assets/museum/clock/number_03.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 3",
+    "source": "procedural_png"
+  },
+  "clock.number_04": {
+    "path": "/assets/museum/clock/number_04.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 4",
+    "source": "procedural_png"
+  },
+  "clock.number_05": {
+    "path": "/assets/museum/clock/number_05.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 5",
+    "source": "procedural_png"
+  },
+  "clock.number_06": {
+    "path": "/assets/museum/clock/number_06.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 6",
+    "source": "procedural_png"
+  },
+  "clock.number_07": {
+    "path": "/assets/museum/clock/number_07.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 7",
+    "source": "procedural_png"
+  },
+  "clock.number_08": {
+    "path": "/assets/museum/clock/number_08.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 8",
+    "source": "procedural_png"
+  },
+  "clock.number_09": {
+    "path": "/assets/museum/clock/number_09.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 9",
+    "source": "procedural_png"
+  },
+  "clock.number_10": {
+    "path": "/assets/museum/clock/number_10.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 10",
+    "source": "procedural_png"
+  },
+  "clock.number_11": {
+    "path": "/assets/museum/clock/number_11.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 11",
+    "source": "procedural_png"
+  },
+  "clock.number_12": {
+    "path": "/assets/museum/clock/number_12.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Draggable clock number 12",
+    "source": "procedural_png"
+  },
+  "visitors.visitor_01": {
+    "path": "/assets/museum/visitors/visitor_01.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 1: boy, red cap",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_02": {
+    "path": "/assets/museum/visitors/visitor_02.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 2: girl, green dress",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_03": {
+    "path": "/assets/museum/visitors/visitor_03.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 3: man, black hat",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_04": {
+    "path": "/assets/museum/visitors/visitor_04.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 4: woman, yellow bag",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_05": {
+    "path": "/assets/museum/visitors/visitor_05.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 5: boy, blue shoes",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_06": {
+    "path": "/assets/museum/visitors/visitor_06.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 6: girl, purple jacket",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_07": {
+    "path": "/assets/museum/visitors/visitor_07.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 7: man, glasses",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_08": {
+    "path": "/assets/museum/visitors/visitor_08.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 8: woman, red umbrella",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_09": {
+    "path": "/assets/museum/visitors/visitor_09.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 9: boy, orange T-shirt",
+    "source": "QA_repaired_v2"
+  },
+  "visitors.visitor_10": {
+    "path": "/assets/museum/visitors/visitor_10.png",
+    "size": [
+      512,
+      650
+    ],
+    "description": "Visitor 10: girl, pink scarf",
+    "source": "QA_repaired_v2"
+  },
+  "objects.torch_yellow": {
+    "path": "/assets/museum/objects/torch_yellow.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: torch_yellow",
+    "source": "QA_repaired_v2"
+  },
+  "objects.key_silver": {
+    "path": "/assets/museum/objects/key_silver.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: key_silver",
+    "source": "QA_repaired_v2"
+  },
+  "objects.camera_black": {
+    "path": "/assets/museum/objects/camera_black.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: camera_black",
+    "source": "QA_repaired_v2"
+  },
+  "objects.ball_orange": {
+    "path": "/assets/museum/objects/ball_orange.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: ball_orange",
+    "source": "QA_repaired_v2"
+  },
+  "objects.cup_blue": {
+    "path": "/assets/museum/objects/cup_blue.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: cup_blue",
+    "source": "QA_repaired_v2"
+  },
+  "objects.coin_silver": {
+    "path": "/assets/museum/objects/coin_silver.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: coin_silver",
+    "source": "QA_repaired_v2"
+  },
+  "objects.star_red": {
+    "path": "/assets/museum/objects/star_red.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: star_red",
+    "source": "QA_repaired_v2"
+  },
+  "objects.bell_gold": {
+    "path": "/assets/museum/objects/bell_gold.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: bell_gold",
+    "source": "QA_repaired_v2"
+  },
+  "objects.book_purple": {
+    "path": "/assets/museum/objects/book_purple.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: book_purple",
+    "source": "QA_repaired_v2"
+  },
+  "objects.scarf_green": {
+    "path": "/assets/museum/objects/scarf_green.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: scarf_green",
+    "source": "QA_repaired_v2"
+  },
+  "objects.apple_red": {
+    "path": "/assets/museum/objects/apple_red.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: apple_red",
+    "source": "QA_repaired_v2"
+  },
+  "objects.spoon_small": {
+    "path": "/assets/museum/objects/spoon_small.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: spoon_small",
+    "source": "QA_repaired_v2"
+  },
+  "objects.hat_yellow": {
+    "path": "/assets/museum/objects/hat_yellow.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: hat_yellow",
+    "source": "QA_repaired_v2"
+  },
+  "objects.paintbrush": {
+    "path": "/assets/museum/objects/paintbrush.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: paintbrush",
+    "source": "QA_repaired_v2"
+  },
+  "objects.ribbon_pink": {
+    "path": "/assets/museum/objects/ribbon_pink.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: ribbon_pink",
+    "source": "QA_repaired_v2"
+  },
+  "objects.necklace_gold": {
+    "path": "/assets/museum/objects/necklace_gold.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: necklace_gold",
+    "source": "QA_repaired_v2"
+  },
+  "objects.bottle_blue": {
+    "path": "/assets/museum/objects/bottle_blue.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: bottle_blue",
+    "source": "QA_repaired_v2"
+  },
+  "objects.toy_dinosaur": {
+    "path": "/assets/museum/objects/toy_dinosaur.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: toy_dinosaur",
+    "source": "QA_repaired_v2"
+  },
+  "objects.bird_blue": {
+    "path": "/assets/museum/objects/bird_blue.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: bird_blue",
+    "source": "QA_repaired_v2"
+  },
+  "objects.flowers_two": {
+    "path": "/assets/museum/objects/flowers_two.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: flowers_two",
+    "source": "QA_repaired_v2"
+  },
+  "objects.boat": {
+    "path": "/assets/museum/objects/boat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: boat",
+    "source": "QA_repaired_v2"
+  },
+  "objects.moon": {
+    "path": "/assets/museum/objects/moon.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: moon",
+    "source": "QA_repaired_v2"
+  },
+  "objects.sun": {
+    "path": "/assets/museum/objects/sun.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: sun",
+    "source": "QA_repaired_v2"
+  },
+  "objects.cat": {
+    "path": "/assets/museum/objects/cat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: cat",
+    "source": "QA_repaired_v2"
+  },
+  "objects.stars_three": {
+    "path": "/assets/museum/objects/stars_three.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: stars_three",
+    "source": "QA_repaired_v2"
+  },
+  "objects.dragon_small": {
+    "path": "/assets/museum/objects/dragon_small.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: dragon_small",
+    "source": "QA_repaired_v2"
+  },
+  "objects.flag_red": {
+    "path": "/assets/museum/objects/flag_red.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: flag_red",
+    "source": "QA_repaired_v2"
+  },
+  "objects.crown": {
+    "path": "/assets/museum/objects/crown.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: crown",
+    "source": "QA_repaired_v2"
+  },
+  "objects.star": {
+    "path": "/assets/museum/objects/star.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: star",
+    "source": "QA_repaired_v2"
+  },
+  "objects.eye": {
+    "path": "/assets/museum/objects/eye.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: eye",
+    "source": "QA_repaired_v2"
+  },
+  "objects.snake": {
+    "path": "/assets/museum/objects/snake.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: snake",
+    "source": "QA_repaired_v2"
+  },
+  "objects.bird": {
+    "path": "/assets/museum/objects/bird.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: bird",
+    "source": "QA_repaired_v2"
+  },
+  "objects.key": {
+    "path": "/assets/museum/objects/key.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: key",
+    "source": "QA_repaired_v2"
+  },
+  "objects.hat_green": {
+    "path": "/assets/museum/objects/hat_green.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: hat_green",
+    "source": "QA_repaired_v2"
+  },
+  "objects.bag_green": {
+    "path": "/assets/museum/objects/bag_green.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: bag_green",
+    "source": "QA_repaired_v2"
+  },
+  "objects.bracelets_gold": {
+    "path": "/assets/museum/objects/bracelets_gold.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: bracelets_gold",
+    "source": "QA_repaired_v2"
+  },
+  "objects.ring_silver": {
+    "path": "/assets/museum/objects/ring_silver.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: ring_silver",
+    "source": "QA_repaired_v2"
+  },
+  "objects.book_small": {
+    "path": "/assets/museum/objects/book_small.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: book_small",
+    "source": "QA_repaired_v2"
+  },
+  "objects.torch": {
+    "path": "/assets/museum/objects/torch.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: torch",
+    "source": "QA_repaired_v2"
+  },
+  "objects.spoon": {
+    "path": "/assets/museum/objects/spoon.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: spoon",
+    "source": "QA_repaired_v2"
+  },
+  "objects.coin": {
+    "path": "/assets/museum/objects/coin.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Legible diagram/icon: coin",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.head": {
+    "path": "/assets/museum/dinosaurs/skeleton/head.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: head",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.neck": {
+    "path": "/assets/museum/dinosaurs/skeleton/neck.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: neck",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.body": {
+    "path": "/assets/museum/dinosaurs/skeleton/body.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: body",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.tail": {
+    "path": "/assets/museum/dinosaurs/skeleton/tail.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: tail",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.left_arm": {
+    "path": "/assets/museum/dinosaurs/skeleton/left_arm.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: left_arm",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.right_arm": {
+    "path": "/assets/museum/dinosaurs/skeleton/right_arm.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: right_arm",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.left_leg": {
+    "path": "/assets/museum/dinosaurs/skeleton/left_leg.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: left_leg",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.right_leg": {
+    "path": "/assets/museum/dinosaurs/skeleton/right_leg.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: right_leg",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.left_foot": {
+    "path": "/assets/museum/dinosaurs/skeleton/left_foot.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: left_foot",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.skeleton.right_foot": {
+    "path": "/assets/museum/dinosaurs/skeleton/right_foot.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "One of ten skeleton assembly parts: right_foot",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.sun": {
+    "path": "/assets/museum/paintings/sun.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: sun",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.bird_blue": {
+    "path": "/assets/museum/paintings/bird_blue.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: bird_blue",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.cat": {
+    "path": "/assets/museum/paintings/cat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: cat",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.flowers_two": {
+    "path": "/assets/museum/paintings/flowers_two.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: flowers_two",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.boat": {
+    "path": "/assets/museum/paintings/boat.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: boat",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.moon": {
+    "path": "/assets/museum/paintings/moon.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: moon",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.flag_red": {
+    "path": "/assets/museum/paintings/flag_red.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: flag_red",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.stars_three": {
+    "path": "/assets/museum/paintings/stars_three.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: stars_three",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.dragon_small": {
+    "path": "/assets/museum/paintings/dragon_small.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: dragon_small",
+    "source": "QA_repaired_v2"
+  },
+  "paintings.owl_small": {
+    "path": "/assets/museum/paintings/owl_small.png",
+    "size": [
+      512,
+      512
+    ],
+    "description": "Movable painting prop: owl_small",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_01": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_01.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 1: red, run",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_02": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_02.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 2: green, drink",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_03": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_03.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 3: blue, sleep",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_04": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_04.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 4: yellow, eat",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_05": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_05.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 5: orange, jump",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_06": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_06.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 6: purple, hide",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_07": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_07.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 7: pink, play",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_08": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_08.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 8: brown, walk",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_09": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_09.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 9: teal, sit",
+    "source": "QA_repaired_v2"
+  },
+  "dinosaurs.actions.dino_action_10": {
+    "path": "/assets/museum/dinosaurs/actions/dino_action_10.png",
+    "size": [
+      700,
+      650
+    ],
+    "description": "Action cartoon dinosaur 10: brown, look",
+    "source": "QA_repaired_v2"
+  },
+  "clock.clock_face": {
+    "path": "/assets/museum/clock/clock_face.png",
+    "size": [
+      1000,
+      1000
+    ],
+    "description": "Clock frame without numbers; place 12 digits using overlay divs",
+    "source": "procedural_png"
+  },
+  "puzzles.spot_difference.village_A": {
+    "path": "/assets/museum/puzzles/spot_difference/village_A.png",
+    "size": [
+      1000,
+      640
+    ],
+    "description": "village image A: exactly 5 differences vs other",
+    "source": "deterministic_procedural_png"
+  },
+  "puzzles.spot_difference.village_B": {
+    "path": "/assets/museum/puzzles/spot_difference/village_B.png",
+    "size": [
+      1000,
+      640
+    ],
+    "description": "village image B: exactly 5 differences vs other",
+    "source": "deterministic_procedural_png"
+  },
+  "puzzles.spot_difference.castle_A": {
+    "path": "/assets/museum/puzzles/spot_difference/castle_A.png",
+    "size": [
+      1000,
+      640
+    ],
+    "description": "castle image A: exactly 5 differences vs other",
+    "source": "deterministic_procedural_png"
+  },
+  "puzzles.spot_difference.castle_B": {
+    "path": "/assets/museum/puzzles/spot_difference/castle_B.png",
+    "size": [
+      1000,
+      640
+    ],
+    "description": "castle image B: exactly 5 differences vs other",
+    "source": "deterministic_procedural_png"
+  },
+  "scenes.security_scene": {
+    "path": "/assets/museum/scenes/security_scene.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Deterministic illustrated lobby — answers align with security true/false script",
+    "source": "QA_repaired_v2"
+  },
+  "backgrounds.pip_reveal_poster": {
+    "path": "/assets/museum/backgrounds/pip_reveal_poster.png",
+    "size": [
+      1600,
+      900
+    ],
+    "description": "Full-resolution Pip holding the Moon Key for the finale; gradient background is part of artwork, NOT transparency",
+    "source": "QA_repaired_v2"
+  }
+}

@@ -1,0 +1,1592 @@
+{
+  "version": "v2",
+  "totalAssets": 198,
+  "note": "Standalone PNG/JPG assets for Codex; use V2 specification",
+  "assets": [
+    {
+      "path": "/assets/museum/v2/backgrounds/clock_tower_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/dinosaur_gallery_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/egyptian_chamber_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/living_paintings_gallery_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/lost_found_office_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/museum_finale_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/museum_intro_3d.jpg",
+      "size": [
+        1920,
+        1080
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/backgrounds/security_hall_clean.jpg",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/characters/mummy_friendly_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/pip_mouse_v2.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/professor_hoot_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/suspect_bat_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/suspect_cat_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/suspect_fox_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/suspect_grey_mouse_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/suspect_owl_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_axle.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_07.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_08.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_09.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_10.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_11.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_digit_12.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_face_3d.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_gold_gear_01.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_gold_gear_02.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_gold_gear_03.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_hand_hour.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_hand_minute.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_hand_second.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_keyhole.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/clock_spring.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_00.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_01.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_02.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_03.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_04.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_05.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_06.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_07.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_08.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_09.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/clock/stages/clock_assembly_stage_10.png",
+      "size": [
+        900,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/gallery_1_B.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/gallery_1_base.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/gallery_2_B.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/gallery_2_base.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_1_collar_blue.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_1_hat_moon.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_1_lamp_purple.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_1_sunflower.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_1_waterfall.png",
+      "size": [
+        1000,
+        986
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_2_blue_bird.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_2_blue_flag.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_2_book_star.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_2_crescent_moon.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/differences/overlays/gallery_2_three_stars.png",
+      "size": [
+        1000,
+        866
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_baby_nest.png",
+      "size": [
+        507,
+        348
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_drinking_green.png",
+      "size": [
+        900,
+        900
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_eating_yellow.png",
+      "size": [
+        900,
+        900
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_hiding_purple.png",
+      "size": [
+        479,
+        347
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_jumping_orange.png",
+      "size": [
+        900,
+        900
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_looking_bird_brown.png",
+      "size": [
+        488,
+        380
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_playing_ball.png",
+      "size": [
+        490,
+        374
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_running_red.png",
+      "size": [
+        483,
+        337
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_sleeping_blue.png",
+      "size": [
+        500,
+        316
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/actions/dino_walking_big.png",
+      "size": [
+        960,
+        700
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/characters/brachiosaurus.png",
+      "size": [
+        478,
+        652
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/characters/t_rex.png",
+      "size": [
+        508,
+        557
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/characters/triceratops.png",
+      "size": [
+        565,
+        499
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_arm.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_body.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_claw.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_foot.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_head.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_horn.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_leg.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_neck.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_tail.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/dinosaurs/parts/dino_part_teeth.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_boots.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_dress.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_gloves.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_hat.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_jacket.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_scarf.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_shirt.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_shoes.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_shorts.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_skirt.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_socks.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_sweater.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_trousers.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/clothes/clothes_tshirt.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/bird.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/boat.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/cat.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/crown.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/eye.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/key.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/moon.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/snake.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/star.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/egypt/hieroglyphs/sun.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/evidence/gold_dust.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/evidence/grey_fur.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/evidence/helpful_note.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/evidence/long_tail.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/evidence/pip_with_key.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/evidence/small_footprints.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_blue_cup.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_gold_bell.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_green_scarf.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_purple_book.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_red_apple.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_red_star.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_silver_coin.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_small_spoon.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_white_glove.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/memory/memory_yellow_hat.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_bottle_blue.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_compass.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_crown.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_map.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_necklace_gold.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_paintbrush.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_ribbon_pink.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_spoon.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_torch.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/items/item_toy_dinosaur.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_artist.png",
+      "size": [
+        264,
+        471
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_boy.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_cook.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_explorer.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_girl.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_guard.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_king.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_pirate.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_queen.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/owners/owner_scientist.png",
+      "size": [
+        350,
+        471
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/castle_empty_3d.jpg",
+      "size": [
+        724,
+        565
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/blue_bird.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/boat.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/cat.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/dragon_small.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/flowers_two.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/moon.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/owl.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/red_flag.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/stars_three.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/props/sun.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/paintings/village_empty_3d.jpg",
+      "size": [
+        724,
+        565
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_draw_cat.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_experiment.png",
+      "size": [
+        336,
+        300
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_microscope.png",
+      "size": [
+        335,
+        300
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_mix_colours.png",
+      "size": [
+        337,
+        300
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_paint_picture.png",
+      "size": [
+        326,
+        300
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_stars.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_swim_goggles.png",
+      "size": [
+        341,
+        316
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_swim_pool.png",
+      "size": [
+        341,
+        316
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_teach_english.png",
+      "size": [
+        332,
+        316
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/actions/skill_write_board.png",
+      "size": [
+        338,
+        316
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/artist_3d.png",
+      "size": [
+        264,
+        471
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/scientist_3d.png",
+      "size": [
+        350,
+        471
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/swimmer_3d.png",
+      "size": [
+        237,
+        471
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/professions/teacher_3d.png",
+      "size": [
+        290,
+        471
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_back.png",
+      "size": [
+        341,
+        141
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_continue.png",
+      "size": [
+        616,
+        266
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_home.png",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_next.png",
+      "size": [
+        333,
+        124
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_repeat.png",
+      "size": [
+        345,
+        138
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_skip.png",
+      "size": [
+        315,
+        119
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_start.png",
+      "size": [
+        593,
+        265
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/button_start_again.png",
+      "size": [
+        699,
+        218
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/clue_frame.png",
+      "size": [
+        1200,
+        400
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/dialogue_frame.png",
+      "size": [
+        930,
+        310
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/evidence_notebook.png",
+      "size": [
+        332,
+        317
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/icon_correct.png",
+      "size": [
+        185,
+        170
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/icon_star.png",
+      "size": [
+        186,
+        162
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/icon_wrong.png",
+      "size": [
+        184,
+        169
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/ui/progress_bar.png",
+      "size": [
+        842,
+        150
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_black_hat_man.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_blue_shoes_boy.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_glasses_man.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_green_dress_girl.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_orange_tshirt_boy.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_pink_scarf_girl.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_purple_jacket_girl.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_red_cap_boy.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_red_umbrella_woman.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/visitors/visitor_yellow_bag_woman.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "/assets/museum/v2/characters/suspect_grey_mouse_neutral_3d.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "source": "imagegen_neutral_suspect_fix"
+    }
+  ]
+}

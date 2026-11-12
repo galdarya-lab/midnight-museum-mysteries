@@ -1,0 +1,24 @@
+[
+  {
+    "assetId": "egypt/hieroglyphs/bird",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Asset type: one standalone educational game illustration for Decode the Hieroglyphs, English A1 museum game. Polished charming 3D storybook rendering, warm soft lighting, rounded natural shapes, clear detailed materials. Square composition, complete subject centered occupying about 75 percent of canvas, generous transparent empty margins on all four sides. Real transparent background, clean opaque subject, no background haze, floor, frame, badge, text, labels, watermark, collage or fragments. Nothing cropped. Subject: one beautiful small blue songbird perched upright on its two feet, three-quarter side view, blue feathered wings folded naturally, pale cream breast, bright friendly eyes, small orange beak, complete tail and both feet. A clearly recognizable real bird shape, not a geometric icon. No branch or other objects.",
+    "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-76946694-a070-4ec8-8410-46500f69a3e6.png",
+    "savedPath": "public/assets/museum/v2/repaired/hieroglyph_bird.png"
+  },
+  {
+    "assetId": "egypt/hieroglyphs/snake",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Asset type: one standalone educational game illustration for Decode the Hieroglyphs, English A1 museum game. Polished charming 3D storybook rendering, warm soft lighting, rounded natural shapes, clear detailed materials. Square composition, complete subject centered occupying about 75 percent of canvas, generous transparent empty margins on all four sides. Real transparent background, clean opaque subject, no background haze, floor, frame, badge, text, labels, watermark, collage or fragments. Nothing cropped. Subject: one friendly green snake with a long continuous naturally curved body resting in a loose coil and its small head raised, visible tapered tail, subtle scale texture, gentle expressive eyes, pale yellow underside. Clearly recognizable snake anatomy, no limbs, no accessories, no grass or other objects.",
+    "finishingPrompt": "Use case: background-extraction. Clean up this snake sprite for a game card. Preserve the complete friendly green coiled snake, its face, yellow belly, scales, and entire tapered tail. Remove absolutely all white backdrop, haze, glow, drop shadow and floor around it. Only the opaque snake silhouette should remain on true transparent background. Center the complete snake on a square transparent canvas with at least 8 percent clear empty margin on ALL sides, with no cut-off parts and no extra objects. Clean cutout edges, no text.",
+    "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-40cc64ac-14e5-4dd7-b576-1a8ef5fc41cd.png",
+    "savedPath": "public/assets/museum/v2/repaired/hieroglyph_snake.png"
+  },
+  {
+    "assetId": "egypt/hieroglyphs/boat",
+    "method": "built-in imagegen",
+    "prompt": "Use case: stylized-concept. Asset type: one standalone educational game illustration for Decode the Hieroglyphs, English A1 museum game. Polished charming 3D storybook rendering, warm soft lighting, rounded natural shapes, clear detailed materials. Square composition, complete subject centered occupying about 75 percent of canvas, generous transparent empty margins on all four sides. Real transparent background, clean opaque subject, no background haze, floor, frame, badge, text, labels, watermark, collage or fragments. Nothing cropped. Subject: one complete small wooden rowing boat, three-quarter side view so curved wooden hull and interior seats are both clearly visible, two wooden oars resting neatly across the boat, warm honey brown planks and realistic construction, charming rounded storybook style. No people, no water, no sail, no scenery. A clearly recognizable complete boat, not a flat geometric symbol.",
+    "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-b49c2a5c-ba14-4be1-b130-5421b74c4094.png",
+    "savedPath": "public/assets/museum/v2/repaired/hieroglyph_boat.png"
+  }
+]

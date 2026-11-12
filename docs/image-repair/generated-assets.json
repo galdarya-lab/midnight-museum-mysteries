@@ -1,0 +1,458 @@
+[
+  {
+    "id": "dino_running_red",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly RED little T-Rex running fast: dynamic running stride, two short arms, long red tail, one foot down and the other raised. A tiny dust puff underfoot.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-7c2e6251-5465-45fd-9d44-1623e9ee51b2.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_running_red.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0598,
+    "assetId": "dinosaurs/actions/dino_running_red"
+  },
+  {
+    "id": "dino_drinking_green",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly GREEN triceratops with exactly three facial horns and a head frill, bending down to drink from a small blue puddle. Clearly drinking with muzzle touching the water, four legs and tail fully inside frame.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-adcf4df1-1f3f-4484-a74e-2231e8c2adbd.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_drinking_green.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0223,
+    "assetId": "dinosaurs/actions/dino_drinking_green"
+  },
+  {
+    "id": "dino_sleeping_blue",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly BLUE dinosaur sleeping peacefully curled on a tiny grass patch, eyes shut, head resting on forelegs and tail curled beside it. Sleep is clear from pose. No letters or Z symbols.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-5efe65be-737f-4119-950a-d1d2e3ac8749.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_sleeping_blue.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0606,
+    "assetId": "dinosaurs/actions/dino_sleeping_blue"
+  },
+  {
+    "id": "dino_eating_yellow",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly YELLOW long-neck dinosaur eating green leaves from a small complete leafy branch held next to its mouth. A leaf is visibly in its mouth. Whole dinosaur and whole small branch visible.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-c13c1274-2efb-4d64-83e2-bfdaff8dcf5a.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_eating_yellow.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0367,
+    "assetId": "dinosaurs/actions/dino_eating_yellow"
+  },
+  {
+    "id": "dino_jumping_orange",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly ORANGE little dinosaur jumping joyfully in midair. Both feet clearly above a small oval ground shadow, long tail visible, arms lifted. No additional dinosaurs.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-5c6873cb-5824-432c-af42-96c71cea4aa4.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_jumping_orange.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.1021,
+    "assetId": "dinosaurs/actions/dino_jumping_orange"
+  },
+  {
+    "id": "dino_hiding_purple",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly PURPLE dinosaur hiding BEHIND one rounded grey rock. Its curious eyes, head and part of purple tail peep around rock. Intentional occlusion by the rock only, all visible parts and the complete rock safely inside frame.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-89e27c10-973d-4445-bb0d-0f26ed96ad67.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_hiding_purple.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.1196,
+    "assetId": "dinosaurs/actions/dino_hiding_purple"
+  },
+  {
+    "id": "dino_playing_ball",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One SMALL friendly turquoise dinosaur playing with a bright red-yellow-blue toy ball. One foot gently pushing the ball, playful expression. Dinosaur smaller and younger than the other scenes.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-1efcbe67-910b-4b8f-bab1-ee45f80d1f84.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_playing_ball.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.1045,
+    "assetId": "dinosaurs/actions/dino_playing_ball"
+  },
+  {
+    "id": "dino_walking_big",
+    "prompt": "A single green stegosaurus taking a slow walking step. A friendly rounded children's toy dinosaur with a heavy body, small head, back plates, four sturdy legs and a long tail. One front foot is gently raised in a clear walking motion; other feet rest on a small grass patch. Polished 3D toy illustration, soft warm lighting, calm kind expression. Show the entire animal including every visible foot and the tail, with generous blank space around it, centered in a square image. Transparent background. No words, symbols, costumes, other animals or cut-off objects.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-325be136-f835-433e-9e4c-1417be26a79f.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_walking_big.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0207,
+    "assetId": "dinosaurs/actions/dino_walking_big"
+  },
+  {
+    "id": "dino_baby_nest",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: Exactly ONE tiny BABY light lavender dinosaur sitting in a complete round woven nest, looking happy and curious. Both round nest and entire visible baby safely inside canvas. No neighbouring adult dinosaur or additional animal.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-902caf60-fa14-4a87-b0be-dc6a3f502aae.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_baby_nest.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.1013,
+    "assetId": "dinosaurs/actions/dino_baby_nest"
+  },
+  {
+    "id": "dino_looking_bird_brown",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly BROWN long-neck dinosaur looking upward at exactly one small bright blue bird perched on a short complete twig. Clear eye-line from dinosaur to bird, whole dinosaur including tail and feet and whole bird visible.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-ae8ff7e0-e1aa-462c-8df2-463e02e000c4.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_looking_bird_brown.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0566,
+    "assetId": "dinosaurs/actions/dino_looking_bird_brown"
+  },
+  {
+    "id": "owner_cook",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: One friendly adult cook, white chef's toque, white double-breasted chef jacket, dark trousers, closed shoes. Whole smiling face unobstructed, both empty hands visible.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-d7852b34-2547-4cec-8349-f3ad5e4d470a.png",
+    "savedPath": "public/assets/museum/v2/repaired/owner_cook.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0144,
+    "assetId": "owners/owner_cook"
+  },
+  {
+    "id": "owner_guard",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: One friendly adult museum guard, navy uniform and clearly blue peaked cap, gold badge, dark trousers and shoes. Face entirely visible, no block over eyes, empty hands.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-05bbce8c-5c3b-4d39-b458-f74667731506.png",
+    "savedPath": "public/assets/museum/v2/repaired/owner_guard.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0207,
+    "assetId": "owners/owner_guard"
+  },
+  {
+    "id": "owner_king",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: One kind adult king in a complete regal blue and gold robe, naturally worn three-dimensional golden crown on his head. Whole smiling face visible, full body, empty hands. No pasted graphic crown.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-0f26e62c-9695-4a05-bd4e-fd980f58b2dc.png",
+    "savedPath": "public/assets/museum/v2/repaired/owner_king.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0335,
+    "assetId": "owners/owner_king"
+  },
+  {
+    "id": "owner_queen",
+    "prompt": "Single game character sprite: a friendly middle-aged queen wearing a modest long burgundy royal dress, a golden crown and a small necklace. Both hands empty. Warm polished 3D cartoon style for a primary-school museum game. Full figure with head, crown, sleeves, long hem and shoes all completely inside a square transparent canvas, with empty margin on all sides. Clear uncovered smiling face. No text, no other people, no patches, no fragments, no collage. Fully clothed royal character.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-525577d9-6ca8-46d7-9d4d-c7b04cb7540e.png",
+    "savedPath": "public/assets/museum/v2/repaired/owner_queen.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.008,
+    "assetId": "owners/owner_queen"
+  },
+  {
+    "id": "owner_pirate",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: One friendly adult pirate in a tricorn hat and a classic maroon coat, ONE properly fitted black eyepatch over one eye only. Other eye and smiling face visible. Full body, empty hands. No rectangle across whole face.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-cf05ad90-029b-471a-a4a0-a3c6efba809e.png",
+    "savedPath": "public/assets/museum/v2/repaired/owner_pirate.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0159,
+    "assetId": "owners/owner_pirate"
+  },
+  {
+    "id": "clothes_dress",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete pretty burgundy dress with short sleeves, fitted waist and flared skirt. Garment only, empty neck opening, no person.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-ff903d3f-57e6-433d-b7ca-0967903f65aa.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_dress.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0614,
+    "assetId": "egypt/clothes/clothes_dress"
+  },
+  {
+    "id": "clothes_trousers",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE pair of complete navy LONG TROUSERS with two full-length legs down to the ankles, waistband, seams and cuffs. Not shorts. No person or shoes.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-f5a84ae9-8c36-4170-9445-0b4f099cedf4.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_trousers.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0574,
+    "assetId": "egypt/clothes/clothes_trousers"
+  },
+  {
+    "id": "clothes_hat",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete royal blue brimmed hat with a simple ribbon, shown at a three-quarter angle. No head or other accessories.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-fcb8df37-b214-498c-be4d-029b05ea91fe.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_hat.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0335,
+    "assetId": "egypt/clothes/clothes_hat"
+  },
+  {
+    "id": "clothes_shoes",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE pair of matching complete purple LOW SHOES, with soles and rounded toes visible, low ankles. Not boots. No feet or legs.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-8ef4d024-a98e-442e-81e4-130e2e9d18fa.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_shoes.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0646,
+    "assetId": "egypt/clothes/clothes_shoes"
+  },
+  {
+    "id": "clothes_scarf",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete green knitted scarf, gently looped with its two fringed ends fully visible. No person or additional garment.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-2311d090-4f3c-480d-9d80-ae904a30af2a.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_scarf.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0853,
+    "assetId": "egypt/clothes/clothes_scarf"
+  },
+  {
+    "id": "clothes_skirt",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete red pleated skirt, waistband and full hem visible. No top, no person, no other clothes.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-50788b0f-a981-448c-9091-d3c296ea76f3.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_skirt.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0781,
+    "assetId": "egypt/clothes/clothes_skirt"
+  },
+  {
+    "id": "clothes_tshirt",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete orange SHORT-SLEEVED T-SHIRT with a simple round crew neck. No collar or buttons. Full sleeves and bottom hem visible. No words or logos.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-32af96d8-a18b-4de8-8314-8e2dedf6f604.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_tshirt.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0941,
+    "assetId": "egypt/clothes/clothes_tshirt"
+  },
+  {
+    "id": "clothes_jacket",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete purple long-sleeved JACKET, open front, collar and gold buttons. Both sleeves and complete lower hem visible. No person or other garment.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-881cbecf-f850-4ba2-84e9-b6f4e2971cab.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_jacket.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0662,
+    "assetId": "egypt/clothes/clothes_jacket"
+  },
+  {
+    "id": "clothes_socks",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE pair of matching white socks with blue cuffs, full heels and toes visible. No legs, shoes or other clothes.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-100b480c-b38e-4452-93f3-a30612f1c239.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_socks.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.1228,
+    "assetId": "egypt/clothes/clothes_socks"
+  },
+  {
+    "id": "clothes_boots",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE pair of matching complete brown BOOTS with clearly tall ankle shafts, soles and rounded toes. Not low shoes. No feet or legs.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-4448177a-c4bb-4f71-9703-0ec1c37b6594.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_boots.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.118,
+    "assetId": "egypt/clothes/clothes_boots"
+  },
+  {
+    "id": "clothes_gloves",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE pair of matching white winter gloves, five clear fingers per glove, both complete cuffs. No hands, arms or other clothing.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-dcc94632-01c9-49d6-9db3-5c7dc40fac66.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_gloves.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0391,
+    "assetId": "egypt/clothes/clothes_gloves"
+  },
+  {
+    "id": "clothes_shorts",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE pair of beige SHORTS with a waistband and two SHORT legs ending above the knees. Clearly not long trousers. No person or legs.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-1a38839e-845e-42d0-93b4-83a2275136f1.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_shorts.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0766,
+    "assetId": "egypt/clothes/clothes_shorts"
+  },
+  {
+    "id": "clothes_sweater",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete teal knitted SWEATER with LONG sleeves and a round neck, soft wool texture, complete sleeve cuffs and bottom hem. No buttons, no zipper, no text.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-1d0b8fa7-0a1d-4aa8-8986-23f3d20b786c.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_sweater.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0407,
+    "assetId": "egypt/clothes/clothes_sweater"
+  },
+  {
+    "id": "clothes_shirt",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE complete white long-sleeved BUTTON-UP SHIRT with pointed collar and a clear vertical row of buttons. Both sleeves, cuffs and complete hem visible. No skirt, no person, no fragments.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-359157c8-9ebe-45e8-a4b5-47f757f01d02.png",
+    "savedPath": "public/assets/museum/v2/repaired/clothes_shirt.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0702,
+    "assetId": "egypt/clothes/clothes_shirt"
+  },
+  {
+    "id": "dino_part_body",
+    "prompt": "Use case: stylized-concept. Asset type: ONE standalone sprite for a children's English A1 museum matching game. Premium cohesive warm 3D cartoon animated-family-film rendering, softly rounded shapes, tactile materials, pleasant warm studio lighting, crisp clear silhouette. Transparent background with genuine alpha. Square frame, one requested character or object only, centered and filling about 75 percent of canvas with generous empty safety margin on ALL sides. Do not crop any part. No collage, no fragments of neighbouring images, no added labels, symbols, text, watermark, stickers or borders, no rectangular patch, no background or floor. Primary subject: Exactly ONE isolated rounded green DINOSAUR TORSO body part, a plump barrel-shaped chest and belly, short rounded neck stump and tail-base stump, no separate limbs or head. Friendly toy anatomy piece, solid smooth closed forms, not a hollow tube, not a skeleton, no scary cross-section. Whole torso fully inside canvas.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-8fae56f6-d01a-4a33-83b0-8fde52be80c0.png",
+    "savedPath": "public/assets/museum/v2/repaired/dino_part_body.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.126,
+    "assetId": "dinosaurs/parts/dino_part_body"
+  },
+  {
+    "id": "t_rex",
+    "prompt": "Single standalone sprite for a children's museum game. Soft polished warm 3D cartoon render, kind expressive eyes when applicable, gentle studio illumination. One subject only, centered on a genuinely transparent background, generous clear space on ALL four edges, complete figure with no cropping. No collage, no part of any neighbouring picture, no cut-off tail or head, no costume, no badges, no logos, no labels or borders. Square canvas. Subject: One cute friendly T-Rex dinosaur standing on TWO legs, large head, two SHORT arms, clear small pointed teeth in a friendly smile, long tail entirely visible. Warm terracotta orange skin, cream tummy.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-7aa10125-f477-434e-9645-5faa8c2475e7.png",
+    "savedPath": "public/assets/museum/v2/repaired/t_rex.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0335,
+    "assetId": "dinosaurs/characters/t_rex"
+  },
+  {
+    "id": "triceratops",
+    "prompt": "Single standalone sprite for a children's museum game. Soft polished warm 3D cartoon render, kind expressive eyes when applicable, gentle studio illumination. One subject only, centered on a genuinely transparent background, generous clear space on ALL four edges, complete figure with no cropping. No collage, no part of any neighbouring picture, no cut-off tail or head, no costume, no badges, no logos, no labels or borders. Square canvas. Subject: One cute friendly triceratops dinosaur standing on FOUR legs, a big rounded neck frill and exactly THREE facial horns: two above its eyes and one on its nose. Soft blue skin and cream tummy, entire tail and feet visible.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-124e4e17-c3d2-4ae9-8d4e-662484ea186d.png",
+    "savedPath": "public/assets/museum/v2/repaired/triceratops.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0295,
+    "assetId": "dinosaurs/characters/triceratops"
+  },
+  {
+    "id": "brachiosaurus",
+    "prompt": "Use case: stylized-concept. Asset type: single standalone PNG card illustration for an English A1 children's museum game, not a collage. Cohesive polished warm 3D animated-family-film style, rounded friendly expressive character, soft tactile materials, crisp detail, soft warm studio light. Transparent background with genuine alpha. Square composition with the complete small scene centered, occupying about 75–80% of canvas and at least 10% clear safety margin on ALL four sides. Full body wherever not intentionally hidden by the requested prop. No cropping at canvas edges, no cut off heads/tails/feet, no fragments from other images, no stickers, outlines, frames, labels, words, watermark, extra dinosaurs, ornaments or disconnected bits. Primary scene: One friendly YELLOW long-neck dinosaur eating green leaves from a small complete leafy branch held next to its mouth. A leaf is visibly in its mouth. Whole dinosaur and whole small branch visible.",
+    "method": "built-in imagegen",
+    "note": "Uses the complete newly generated yellow long-neck dinosaur illustration, also used for eating leaves; no image was cropped or edited.",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-c13c1274-2efb-4d64-83e2-bfdaff8dcf5a.png",
+    "savedPath": "public/assets/museum/v2/repaired/brachiosaurus.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0367,
+    "assetId": "dinosaurs/characters/brachiosaurus"
+  },
+  {
+    "id": "dragon_small",
+    "prompt": "Single standalone sprite for a children's museum game. Soft polished warm 3D cartoon render, kind expressive eyes when applicable, gentle studio illumination. One subject only, centered on a genuinely transparent background, generous clear space on ALL four edges, complete figure with no cropping. No collage, no part of any neighbouring picture, no cut-off tail or head, no costume, no badges, no logos, no labels or borders. Square canvas. Subject: One little friendly red-orange baby dragon, full body, head, ears, small wings, four paws and curled tail all fully visible. Sitting sweetly, no flames, no scenery.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-9507e24e-9c9f-4052-97bc-a56402651aba.png",
+    "savedPath": "public/assets/museum/v2/repaired/dragon_small.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0423,
+    "assetId": "paintings/props/dragon_small"
+  },
+  {
+    "id": "stars_three",
+    "prompt": "Single standalone sprite for a children's museum game. Soft polished warm 3D cartoon render, kind expressive eyes when applicable, gentle studio illumination. One subject only, centered on a genuinely transparent background, generous clear space on ALL four edges, complete figure with no cropping. No collage, no part of any neighbouring picture, no cut-off tail or head, no costume, no badges, no logos, no labels or borders. Square canvas. Subject: Exactly THREE separate rounded golden five-pointed stars in a compact triangular group: one at the top and two beneath it. Three-dimensional softly bevelled gold, clear individual silhouettes with small gaps. No fourth star, no sparkles, no fragments, no text, no other object.",
+    "method": "built-in imagegen",
+    "sourceFile": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-0975a475-6aed-48c7-8192-7846929a6b57.png",
+    "savedPath": "public/assets/museum/v2/repaired/stars_three.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "minimumMargin": 0.0654,
+    "assetId": "paintings/props/stars_three"
+  }
+]
