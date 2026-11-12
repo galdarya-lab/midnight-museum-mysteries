@@ -1,0 +1,114 @@
+{
+  "gallery_1": {
+    "a": "differences/gallery_1_base.png",
+    "b": "differences/gallery_1_B.png",
+    "changes": [
+      {
+        "id": "gallery_1_hat_moon",
+        "rect": [
+          0.218,
+          0.30730223123732253,
+          0.068,
+          0.06592292089249494
+        ],
+        "asset": "differences/overlays/gallery_1_hat_moon.png"
+      },
+      {
+        "id": "gallery_1_collar_blue",
+        "rect": [
+          0.505,
+          0.5679513184584178,
+          0.108,
+          0.04665314401622718
+        ],
+        "asset": "differences/overlays/gallery_1_collar_blue.png"
+      },
+      {
+        "id": "gallery_1_waterfall",
+        "rect": [
+          0.786,
+          0.2799188640973631,
+          0.169,
+          0.10243407707910751
+        ],
+        "asset": "differences/overlays/gallery_1_waterfall.png"
+      },
+      {
+        "id": "gallery_1_lamp_purple",
+        "rect": [
+          0.765,
+          0.4056795131845842,
+          0.225,
+          0.15212981744421908
+        ],
+        "asset": "differences/overlays/gallery_1_lamp_purple.png"
+      },
+      {
+        "id": "gallery_1_sunflower",
+        "rect": [
+          0.676,
+          0.422920892494929,
+          0.119,
+          0.1206896551724138
+        ],
+        "asset": "differences/overlays/gallery_1_sunflower.png"
+      }
+    ]
+  },
+  "gallery_2": {
+    "a": "differences/gallery_2_base.png",
+    "b": "differences/gallery_2_B.png",
+    "changes": [
+      {
+        "id": "gallery_2_crescent_moon",
+        "rect": [
+          0.275,
+          0.06928406466512702,
+          0.2,
+          0.21362586605080833
+        ],
+        "asset": "differences/overlays/gallery_2_crescent_moon.png"
+      },
+      {
+        "id": "gallery_2_blue_flag",
+        "rect": [
+          0.598,
+          0.08429561200923788,
+          0.142,
+          0.09815242494226328
+        ],
+        "asset": "differences/overlays/gallery_2_blue_flag.png"
+      },
+      {
+        "id": "gallery_2_blue_bird",
+        "rect": [
+          0.1,
+          0.1674364896073903,
+          0.255,
+          0.23672055427251731
+        ],
+        "asset": "differences/overlays/gallery_2_blue_bird.png"
+      },
+      {
+        "id": "gallery_2_three_stars",
+        "rect": [
+          0.77,
+          0.09930715935334873,
+          0.13,
+          0.13279445727482678
+        ],
+        "asset": "differences/overlays/gallery_2_three_stars.png"
+      },
+      {
+        "id": "gallery_2_book_star",
+        "rect": [
+          0.62,
+          0.7344110854503464,
+          0.145,
+          0.10046189376443418
+        ],
+        "asset": "differences/overlays/gallery_2_book_star.png"
+      }
+    ]
+  }
+}

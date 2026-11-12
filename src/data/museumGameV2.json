@@ -1,0 +1,3748 @@
+{
+  "title": "The Midnight Museum Mysteries V2",
+  "grade": "3–5",
+  "level": "A1",
+  "minutes": 50,
+  "language": "English",
+  "characterGuide": "Professor Hoot",
+  "trueCulprit": "Pip the mouse",
+  "story": "The Moon Key is missing. The museum clock has stopped. Pip borrowed the key to repair the clock; he did not intend to steal it.",
+  "introMinutes": 3,
+  "finaleMinutes": 5,
+  "questionCount": 180,
+  "mode": "teacher-led projected classroom game",
+  "controls": [
+    "Next",
+    "Back",
+    "Repeat",
+    "Skip",
+    "Hint",
+    "Restart station",
+    "Evidence notebook",
+    "Teacher mode"
+  ],
+  "settings": {
+    "fullQuestions": 10,
+    "requiredQuestions": 6,
+    "bonusQuestions": 4,
+    "feedback": true,
+    "scoring": "no penalties",
+    "hints": true,
+    "stationSeconds": 420,
+    "introSeconds": 180,
+    "finaleSeconds": 300,
+    "timerPolicy": "soft countdown; optional; auto-prompt to switch to quick mode at <60s"
+  },
+  "schemaVersion": 2,
+  "stations": [
+    {
+      "id": "S1",
+      "name": "Security Hall",
+      "time": "03:00–10:00",
+      "seconds": 420,
+      "focus": "there is/are; colours; prepositions; descriptions",
+      "clue": "Small footprints",
+      "clueAsset": "evidence/small_footprints",
+      "tasks": [
+        {
+          "id": "S1_T1",
+          "title": "Security Camera Check",
+          "mechanic": "true_false",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S1_T1_Q01",
+              "index": 1,
+              "prompt": "There are two doors in the hall.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S1_T1_Q02",
+              "index": 2,
+              "prompt": "The clock is under the desk.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S1_T1_Q03",
+              "index": 3,
+              "prompt": "There is a red bag next to the chair.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S1_T1_Q04",
+              "index": 4,
+              "prompt": "There are three paintings on the wall.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S1_T1_Q05",
+              "index": 5,
+              "prompt": "The lamp is green.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S1_T1_Q06",
+              "index": 6,
+              "prompt": "There is a ticket under the bench.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S1_T1_Q07",
+              "index": 7,
+              "prompt": "The guard has got a blue hat.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S1_T1_Q08",
+              "index": 8,
+              "prompt": "The window is open.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S1_T1_Q09",
+              "index": 9,
+              "prompt": "There are four keys on the desk.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S1_T1_Q10",
+              "index": 10,
+              "prompt": "The plant is next to the stairs.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            }
+          ]
+        },
+        {
+          "id": "S1_T2",
+          "title": "Magic Flashlight",
+          "mechanic": "find_object",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S1_T2_Q01",
+              "index": 1,
+              "prompt": "Find the red ticket.",
+              "correct": "ticket_red",
+              "correctId": "ticket_red",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/ticket_red",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q02",
+              "index": 2,
+              "prompt": "Find the blue hat.",
+              "correct": "hat_blue",
+              "correctId": "hat_blue",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/hat_blue",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q03",
+              "index": 3,
+              "prompt": "Find the yellow torch.",
+              "correct": "torch_yellow",
+              "correctId": "torch_yellow",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/torch_yellow",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q04",
+              "index": 4,
+              "prompt": "Find the green backpack.",
+              "correct": "backpack_green",
+              "correctId": "backpack_green",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/backpack_green",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q05",
+              "index": 5,
+              "prompt": "Find the silver key.",
+              "correct": "key_silver",
+              "correctId": "key_silver",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/key_silver",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q06",
+              "index": 6,
+              "prompt": "Find the brown book.",
+              "correct": "book_brown",
+              "correctId": "book_brown",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/book_brown",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q07",
+              "index": 7,
+              "prompt": "Find the white glove.",
+              "correct": "glove_white",
+              "correctId": "glove_white",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/glove_white",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q08",
+              "index": 8,
+              "prompt": "Find the purple umbrella.",
+              "correct": "umbrella_purple",
+              "correctId": "umbrella_purple",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/umbrella_purple",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q09",
+              "index": 9,
+              "prompt": "Find the black camera.",
+              "correct": "camera_black",
+              "correctId": "camera_black",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/camera_black",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T2_Q10",
+              "index": 10,
+              "prompt": "Find the orange ball.",
+              "correct": "ball_orange",
+              "correctId": "ball_orange",
+              "options": [
+                "ticket_red",
+                "hat_blue",
+                "torch_yellow",
+                "backpack_green",
+                "key_silver",
+                "book_brown",
+                "glove_white",
+                "umbrella_purple",
+                "camera_black",
+                "ball_orange"
+              ],
+              "assetId": "props/ball_orange",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        },
+        {
+          "id": "S1_T3",
+          "title": "The Ticket Machine",
+          "mechanic": "portrait_match",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S1_T3_Q01",
+              "index": 1,
+              "prompt": "The boy has got a red cap.",
+              "correct": "visitor_red_cap_boy",
+              "correctId": "visitor_red_cap_boy",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_red_cap_boy",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q02",
+              "index": 2,
+              "prompt": "The girl is wearing a green dress.",
+              "correct": "visitor_green_dress_girl",
+              "correctId": "visitor_green_dress_girl",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_green_dress_girl",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q03",
+              "index": 3,
+              "prompt": "The man has got a black hat.",
+              "correct": "visitor_black_hat_man",
+              "correctId": "visitor_black_hat_man",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_black_hat_man",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q04",
+              "index": 4,
+              "prompt": "The woman is holding a yellow bag.",
+              "correct": "visitor_yellow_bag_woman",
+              "correctId": "visitor_yellow_bag_woman",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_yellow_bag_woman",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q05",
+              "index": 5,
+              "prompt": "The boy has got blue shoes.",
+              "correct": "visitor_blue_shoes_boy",
+              "correctId": "visitor_blue_shoes_boy",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_blue_shoes_boy",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q06",
+              "index": 6,
+              "prompt": "The girl is wearing a purple jacket.",
+              "correct": "visitor_purple_jacket_girl",
+              "correctId": "visitor_purple_jacket_girl",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_purple_jacket_girl",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q07",
+              "index": 7,
+              "prompt": "The man has got glasses.",
+              "correct": "visitor_glasses_man",
+              "correctId": "visitor_glasses_man",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_glasses_man",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q08",
+              "index": 8,
+              "prompt": "The woman is holding a red umbrella.",
+              "correct": "visitor_red_umbrella_woman",
+              "correctId": "visitor_red_umbrella_woman",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_red_umbrella_woman",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q09",
+              "index": 9,
+              "prompt": "The boy is wearing an orange T-shirt.",
+              "correct": "visitor_orange_tshirt_boy",
+              "correctId": "visitor_orange_tshirt_boy",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_orange_tshirt_boy",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S1_T3_Q10",
+              "index": 10,
+              "prompt": "The girl has got a pink scarf.",
+              "correct": "visitor_pink_scarf_girl",
+              "correctId": "visitor_pink_scarf_girl",
+              "options": [
+                "visitor_red_cap_boy",
+                "visitor_green_dress_girl",
+                "visitor_black_hat_man",
+                "visitor_yellow_bag_woman",
+                "visitor_blue_shoes_boy",
+                "visitor_purple_jacket_girl",
+                "visitor_glasses_man",
+                "visitor_red_umbrella_woman",
+                "visitor_orange_tshirt_boy",
+                "visitor_pink_scarf_girl"
+              ],
+              "assetId": "visitors/visitor_pink_scarf_girl",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Dinosaur Gallery",
+      "time": "10:00–17:00",
+      "seconds": 420,
+      "focus": "body parts; have got; can; present continuous",
+      "clue": "Grey fur",
+      "clueAsset": "evidence/grey_fur",
+      "tasks": [
+        {
+          "id": "S2_T1",
+          "title": "Find the Dinosaur Body Part",
+          "mechanic": "picture_choice_10",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S2_T1_Q01",
+              "index": 1,
+              "prompt": "Find the head.",
+              "correct": "dino_part_head",
+              "correctId": "dino_part_head",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_head",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q02",
+              "index": 2,
+              "prompt": "Find the tail.",
+              "correct": "dino_part_tail",
+              "correctId": "dino_part_tail",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_tail",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q03",
+              "index": 3,
+              "prompt": "Find the leg.",
+              "correct": "dino_part_leg",
+              "correctId": "dino_part_leg",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_leg",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q04",
+              "index": 4,
+              "prompt": "Find the foot.",
+              "correct": "dino_part_foot",
+              "correctId": "dino_part_foot",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_foot",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q05",
+              "index": 5,
+              "prompt": "Find the arm.",
+              "correct": "dino_part_arm",
+              "correctId": "dino_part_arm",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_arm",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q06",
+              "index": 6,
+              "prompt": "Find the teeth.",
+              "correct": "dino_part_teeth",
+              "correctId": "dino_part_teeth",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_teeth",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q07",
+              "index": 7,
+              "prompt": "Find the horn.",
+              "correct": "dino_part_horn",
+              "correctId": "dino_part_horn",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_horn",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q08",
+              "index": 8,
+              "prompt": "Find the neck.",
+              "correct": "dino_part_neck",
+              "correctId": "dino_part_neck",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_neck",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q09",
+              "index": 9,
+              "prompt": "Find the body.",
+              "correct": "dino_part_body",
+              "correctId": "dino_part_body",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_body",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T1_Q10",
+              "index": 10,
+              "prompt": "Find the claw.",
+              "correct": "dino_part_claw",
+              "correctId": "dino_part_claw",
+              "options": [
+                "dino_part_head",
+                "dino_part_tail",
+                "dino_part_leg",
+                "dino_part_foot",
+                "dino_part_arm",
+                "dino_part_teeth",
+                "dino_part_horn",
+                "dino_part_neck",
+                "dino_part_body",
+                "dino_part_claw"
+              ],
+              "assetId": "dinosaurs/parts/dino_part_claw",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        },
+        {
+          "id": "S2_T2",
+          "title": "Who Am I? Dinosaur Edition",
+          "mechanic": "choice_3",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S2_T2_Q01",
+              "index": 1,
+              "prompt": "I have got two short arms.",
+              "correct": "t_rex",
+              "correctId": "t_rex",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/t_rex",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q02",
+              "index": 2,
+              "prompt": "I have got three horns.",
+              "correct": "triceratops",
+              "correctId": "triceratops",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/triceratops",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q03",
+              "index": 3,
+              "prompt": "I have got a very long neck.",
+              "correct": "brachiosaurus",
+              "correctId": "brachiosaurus",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/brachiosaurus",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q04",
+              "index": 4,
+              "prompt": "I have got a big head shield.",
+              "correct": "triceratops",
+              "correctId": "triceratops",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/triceratops",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q05",
+              "index": 5,
+              "prompt": "I have got sharp teeth.",
+              "correct": "t_rex",
+              "correctId": "t_rex",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/t_rex",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q06",
+              "index": 6,
+              "prompt": "I have got a long neck and a small head.",
+              "correct": "brachiosaurus",
+              "correctId": "brachiosaurus",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/brachiosaurus",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q07",
+              "index": 7,
+              "prompt": "I can run on two legs.",
+              "correct": "t_rex",
+              "correctId": "t_rex",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/t_rex",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q08",
+              "index": 8,
+              "prompt": "I have got a horn on my nose.",
+              "correct": "triceratops",
+              "correctId": "triceratops",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/triceratops",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q09",
+              "index": 9,
+              "prompt": "I can eat leaves from tall trees.",
+              "correct": "brachiosaurus",
+              "correctId": "brachiosaurus",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/brachiosaurus",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T2_Q10",
+              "index": 10,
+              "prompt": "I am big and I eat meat.",
+              "correct": "t_rex",
+              "correctId": "t_rex",
+              "options": [
+                "t_rex",
+                "triceratops",
+                "brachiosaurus"
+              ],
+              "assetId": "dinosaurs/characters/t_rex",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        },
+        {
+          "id": "S2_T3",
+          "title": "The Moving Dinosaurs",
+          "mechanic": "picture_choice_10",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S2_T3_Q01",
+              "index": 1,
+              "prompt": "The red dinosaur is running.",
+              "correct": "dino_running_red",
+              "correctId": "dino_running_red",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_running_red",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q02",
+              "index": 2,
+              "prompt": "The green dinosaur is drinking water.",
+              "correct": "dino_drinking_green",
+              "correctId": "dino_drinking_green",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_drinking_green",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q03",
+              "index": 3,
+              "prompt": "The blue dinosaur is sleeping.",
+              "correct": "dino_sleeping_blue",
+              "correctId": "dino_sleeping_blue",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_sleeping_blue",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q04",
+              "index": 4,
+              "prompt": "The yellow dinosaur is eating leaves.",
+              "correct": "dino_eating_yellow",
+              "correctId": "dino_eating_yellow",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_eating_yellow",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q05",
+              "index": 5,
+              "prompt": "The orange dinosaur is jumping.",
+              "correct": "dino_jumping_orange",
+              "correctId": "dino_jumping_orange",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_jumping_orange",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q06",
+              "index": 6,
+              "prompt": "The purple dinosaur is hiding behind a rock.",
+              "correct": "dino_hiding_purple",
+              "correctId": "dino_hiding_purple",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_hiding_purple",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q07",
+              "index": 7,
+              "prompt": "The little dinosaur is playing with a ball.",
+              "correct": "dino_playing_ball",
+              "correctId": "dino_playing_ball",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_playing_ball",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q08",
+              "index": 8,
+              "prompt": "The big dinosaur is walking slowly.",
+              "correct": "dino_walking_big",
+              "correctId": "dino_walking_big",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_walking_big",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q09",
+              "index": 9,
+              "prompt": "The baby dinosaur is sitting in a nest.",
+              "correct": "dino_baby_nest",
+              "correctId": "dino_baby_nest",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_baby_nest",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S2_T3_Q10",
+              "index": 10,
+              "prompt": "The brown dinosaur is looking at a bird.",
+              "correct": "dino_looking_bird_brown",
+              "correctId": "dino_looking_bird_brown",
+              "options": [
+                "dino_running_red",
+                "dino_drinking_green",
+                "dino_sleeping_blue",
+                "dino_eating_yellow",
+                "dino_jumping_orange",
+                "dino_hiding_purple",
+                "dino_playing_ball",
+                "dino_walking_big",
+                "dino_baby_nest",
+                "dino_looking_bird_brown"
+              ],
+              "assetId": "dinosaurs/actions/dino_looking_bird_brown",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Living Paintings",
+      "time": "17:00–24:00",
+      "seconds": 420,
+      "focus": "prepositions; descriptions; have got; there is/are",
+      "clue": "A long tail",
+      "clueAsset": "evidence/long_tail",
+      "tasks": [
+        {
+          "id": "S3_T1",
+          "title": "Repair the Paintings",
+          "mechanic": "drag_drop",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "questions": [
+            {
+              "id": "S3_T1_Q01",
+              "index": 1,
+              "prompt": "Put the sun above the house.",
+              "correct": "sun",
+              "correctId": "sun",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/sun",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "village",
+              "targetId": "sky_above_house"
+            },
+            {
+              "id": "S3_T1_Q02",
+              "index": 2,
+              "prompt": "Put the blue bird in the tree.",
+              "correct": "blue_bird",
+              "correctId": "blue_bird",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/blue_bird",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "village",
+              "targetId": "tree"
+            },
+            {
+              "id": "S3_T1_Q03",
+              "index": 3,
+              "prompt": "Put the cat under the bench.",
+              "correct": "cat",
+              "correctId": "cat",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/cat",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "village",
+              "targetId": "under_bench"
+            },
+            {
+              "id": "S3_T1_Q04",
+              "index": 4,
+              "prompt": "Put two flowers in front of the house.",
+              "correct": "flowers_two",
+              "correctId": "flowers_two",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/flowers_two",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "village",
+              "targetId": "in_front_house"
+            },
+            {
+              "id": "S3_T1_Q05",
+              "index": 5,
+              "prompt": "Put the boat on the lake.",
+              "correct": "boat",
+              "correctId": "boat",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/boat",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "village",
+              "targetId": "lake"
+            },
+            {
+              "id": "S3_T1_Q06",
+              "index": 6,
+              "prompt": "Put the moon above the castle.",
+              "correct": "moon",
+              "correctId": "moon",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/moon",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "castle",
+              "targetId": "sky_above_castle"
+            },
+            {
+              "id": "S3_T1_Q07",
+              "index": 7,
+              "prompt": "Put the owl on the castle roof.",
+              "correct": "owl",
+              "correctId": "owl",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/owl",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "castle",
+              "targetId": "roof"
+            },
+            {
+              "id": "S3_T1_Q08",
+              "index": 8,
+              "prompt": "Put a red flag on the tower.",
+              "correct": "red_flag",
+              "correctId": "red_flag",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/red_flag",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "castle",
+              "targetId": "tower"
+            },
+            {
+              "id": "S3_T1_Q09",
+              "index": 9,
+              "prompt": "Put three stars in the sky.",
+              "correct": "stars_three",
+              "correctId": "stars_three",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/stars_three",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "castle",
+              "targetId": "sky"
+            },
+            {
+              "id": "S3_T1_Q10",
+              "index": 10,
+              "prompt": "Put the little dragon behind the castle.",
+              "correct": "dragon_small",
+              "correctId": "dragon_small",
+              "options": [
+                "sun",
+                "blue_bird",
+                "cat",
+                "flowers_two",
+                "boat",
+                "moon",
+                "owl",
+                "red_flag",
+                "stars_three",
+                "dragon_small"
+              ],
+              "assetId": "paintings/props/dragon_small",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "scene": "castle",
+              "targetId": "behind_castle"
+            }
+          ]
+        },
+        {
+          "id": "S3_T2",
+          "title": "Professions & Skills Matching",
+          "mechanic": "profession_match",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S3_T2_Q01",
+              "index": 1,
+              "prompt": "paint a picture",
+              "correct": "artist",
+              "correctId": "artist",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_paint_picture",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_paint_picture",
+              "correctOwner": "artist"
+            },
+            {
+              "id": "S3_T2_Q02",
+              "index": 2,
+              "prompt": "draw a cat",
+              "correct": "artist",
+              "correctId": "artist",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_draw_cat",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_draw_cat",
+              "correctOwner": "artist"
+            },
+            {
+              "id": "S3_T2_Q03",
+              "index": 3,
+              "prompt": "mix colours",
+              "correct": "artist",
+              "correctId": "artist",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_mix_colours",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_mix_colours",
+              "correctOwner": "artist"
+            },
+            {
+              "id": "S3_T2_Q04",
+              "index": 4,
+              "prompt": "do an experiment",
+              "correct": "scientist",
+              "correctId": "scientist",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_experiment",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_experiment",
+              "correctOwner": "scientist"
+            },
+            {
+              "id": "S3_T2_Q05",
+              "index": 5,
+              "prompt": "use a microscope",
+              "correct": "scientist",
+              "correctId": "scientist",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_microscope",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_microscope",
+              "correctOwner": "scientist"
+            },
+            {
+              "id": "S3_T2_Q06",
+              "index": 6,
+              "prompt": "look at stars",
+              "correct": "scientist",
+              "correctId": "scientist",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_stars",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_stars",
+              "correctOwner": "scientist"
+            },
+            {
+              "id": "S3_T2_Q07",
+              "index": 7,
+              "prompt": "teach English",
+              "correct": "teacher",
+              "correctId": "teacher",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_teach_english",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_teach_english",
+              "correctOwner": "teacher"
+            },
+            {
+              "id": "S3_T2_Q08",
+              "index": 8,
+              "prompt": "write on the board",
+              "correct": "teacher",
+              "correctId": "teacher",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_write_board",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_write_board",
+              "correctOwner": "teacher"
+            },
+            {
+              "id": "S3_T2_Q09",
+              "index": 9,
+              "prompt": "swim in a pool",
+              "correct": "swimmer",
+              "correctId": "swimmer",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_swim_pool",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_swim_pool",
+              "correctOwner": "swimmer"
+            },
+            {
+              "id": "S3_T2_Q10",
+              "index": 10,
+              "prompt": "wear swimming goggles",
+              "correct": "swimmer",
+              "correctId": "swimmer",
+              "options": [
+                "artist",
+                "scientist",
+                "teacher",
+                "swimmer"
+              ],
+              "assetId": "professions/actions/skill_swim_goggles",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "skillId": "skill_swim_goggles",
+              "correctOwner": "swimmer"
+            }
+          ]
+        },
+        {
+          "id": "S3_T3",
+          "title": "Spot the Difference",
+          "mechanic": "spot_difference",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "questions": [
+            {
+              "id": "S3_T3_Q01",
+              "index": 1,
+              "prompt": "The girl has got a star on her hat in picture A.",
+              "correct": "gallery_1_hat_moon",
+              "correctId": "gallery_1_hat_moon",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_1_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_1"
+            },
+            {
+              "id": "S3_T3_Q02",
+              "index": 2,
+              "prompt": "The cat has got a red collar in picture A.",
+              "correct": "gallery_1_collar_blue",
+              "correctId": "gallery_1_collar_blue",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_1_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_1"
+            },
+            {
+              "id": "S3_T3_Q03",
+              "index": 3,
+              "prompt": "The small painting shows mountains in picture A.",
+              "correct": "gallery_1_waterfall",
+              "correctId": "gallery_1_waterfall",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_1_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_1"
+            },
+            {
+              "id": "S3_T3_Q04",
+              "index": 4,
+              "prompt": "The lamp is yellow in picture A.",
+              "correct": "gallery_1_lamp_purple",
+              "correctId": "gallery_1_lamp_purple",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_1_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_1"
+            },
+            {
+              "id": "S3_T3_Q05",
+              "index": 5,
+              "prompt": "There is no sunflower in picture A.",
+              "correct": "gallery_1_sunflower",
+              "correctId": "gallery_1_sunflower",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_1_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_1"
+            },
+            {
+              "id": "S3_T3_Q06",
+              "index": 6,
+              "prompt": "The moon is round in picture A.",
+              "correct": "gallery_2_crescent_moon",
+              "correctId": "gallery_2_crescent_moon",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_2_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_2"
+            },
+            {
+              "id": "S3_T3_Q07",
+              "index": 7,
+              "prompt": "The flag is red in picture A.",
+              "correct": "gallery_2_blue_flag",
+              "correctId": "gallery_2_blue_flag",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_2_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_2"
+            },
+            {
+              "id": "S3_T3_Q08",
+              "index": 8,
+              "prompt": "There is a dragon in the sky in picture A.",
+              "correct": "gallery_2_blue_bird",
+              "correctId": "gallery_2_blue_bird",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_2_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_2"
+            },
+            {
+              "id": "S3_T3_Q09",
+              "index": 9,
+              "prompt": "There are two stars above the castle in picture A.",
+              "correct": "gallery_2_three_stars",
+              "correctId": "gallery_2_three_stars",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_2_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_2"
+            },
+            {
+              "id": "S3_T3_Q10",
+              "index": 10,
+              "prompt": "There is a crown on the book in picture A.",
+              "correct": "gallery_2_book_star",
+              "correctId": "gallery_2_book_star",
+              "options": [
+                "gallery_1_hat_moon",
+                "gallery_1_collar_blue",
+                "gallery_1_waterfall",
+                "gallery_1_lamp_purple",
+                "gallery_1_sunflower",
+                "gallery_2_crescent_moon",
+                "gallery_2_blue_flag",
+                "gallery_2_blue_bird",
+                "gallery_2_three_stars",
+                "gallery_2_book_star"
+              ],
+              "assetId": "differences/gallery_2_base",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "pairId": "gallery_2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Egyptian Chamber",
+      "time": "24:00–31:00",
+      "seconds": 420,
+      "focus": "word order; vocabulary; clothes; prepositions; imperatives",
+      "clue": "Gold dust",
+      "clueAsset": "evidence/gold_dust",
+      "tasks": [
+        {
+          "id": "S4_T1",
+          "title": "Decode the Hieroglyphs",
+          "mechanic": "symbol_choice",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S4_T1_Q01",
+              "index": 1,
+              "prompt": "The [SUN] is yellow.",
+              "correct": "sun",
+              "correctId": "sun",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/sun",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q02",
+              "index": 2,
+              "prompt": "The [CAT] is sleeping.",
+              "correct": "cat",
+              "correctId": "cat",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/cat",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q03",
+              "index": 3,
+              "prompt": "The [SNAKE] is long.",
+              "correct": "snake",
+              "correctId": "snake",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/snake",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q04",
+              "index": 4,
+              "prompt": "The [BOAT] is on the river.",
+              "correct": "boat",
+              "correctId": "boat",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/boat",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q05",
+              "index": 5,
+              "prompt": "The [MOON] is white.",
+              "correct": "moon",
+              "correctId": "moon",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/moon",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q06",
+              "index": 6,
+              "prompt": "The [BIRD] can fly.",
+              "correct": "bird",
+              "correctId": "bird",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/bird",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q07",
+              "index": 7,
+              "prompt": "The king has got a [CROWN].",
+              "correct": "crown",
+              "correctId": "crown",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/crown",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q08",
+              "index": 8,
+              "prompt": "The [STAR] is blue.",
+              "correct": "star",
+              "correctId": "star",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/star",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q09",
+              "index": 9,
+              "prompt": "The [EYE] is big.",
+              "correct": "eye",
+              "correctId": "eye",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/eye",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T1_Q10",
+              "index": 10,
+              "prompt": "The [KEY] is small.",
+              "correct": "key",
+              "correctId": "key",
+              "options": [
+                "sun",
+                "cat",
+                "snake",
+                "boat",
+                "moon",
+                "bird",
+                "crown",
+                "star",
+                "eye",
+                "key"
+              ],
+              "assetId": "egypt/hieroglyphs/key",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        },
+        {
+          "id": "S4_T2",
+          "title": "Mummy’s Wardrobe — Find the Clothes",
+          "mechanic": "clothing_choice",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S4_T2_Q01",
+              "index": 1,
+              "prompt": "Find the dress.",
+              "correct": "clothes_dress",
+              "correctId": "clothes_dress",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_dress",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q02",
+              "index": 2,
+              "prompt": "Find the trousers.",
+              "correct": "clothes_trousers",
+              "correctId": "clothes_trousers",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_trousers",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q03",
+              "index": 3,
+              "prompt": "Find the hat.",
+              "correct": "clothes_hat",
+              "correctId": "clothes_hat",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_hat",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q04",
+              "index": 4,
+              "prompt": "Find the shoes.",
+              "correct": "clothes_shoes",
+              "correctId": "clothes_shoes",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_shoes",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q05",
+              "index": 5,
+              "prompt": "Find the scarf.",
+              "correct": "clothes_scarf",
+              "correctId": "clothes_scarf",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_scarf",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q06",
+              "index": 6,
+              "prompt": "Find the skirt.",
+              "correct": "clothes_skirt",
+              "correctId": "clothes_skirt",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_skirt",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q07",
+              "index": 7,
+              "prompt": "Find the T-shirt.",
+              "correct": "clothes_tshirt",
+              "correctId": "clothes_tshirt",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_tshirt",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q08",
+              "index": 8,
+              "prompt": "Find the jacket.",
+              "correct": "clothes_jacket",
+              "correctId": "clothes_jacket",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_jacket",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q09",
+              "index": 9,
+              "prompt": "Find the socks.",
+              "correct": "clothes_socks",
+              "correctId": "clothes_socks",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_socks",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            },
+            {
+              "id": "S4_T2_Q10",
+              "index": 10,
+              "prompt": "Find the boots.",
+              "correct": "clothes_boots",
+              "correctId": "clothes_boots",
+              "options": [
+                "clothes_dress",
+                "clothes_trousers",
+                "clothes_hat",
+                "clothes_shoes",
+                "clothes_scarf",
+                "clothes_skirt",
+                "clothes_tshirt",
+                "clothes_jacket",
+                "clothes_socks",
+                "clothes_boots",
+                "clothes_gloves",
+                "clothes_shorts",
+                "clothes_sweater",
+                "clothes_shirt"
+              ],
+              "assetId": "egypt/clothes/clothes_boots",
+              "feedbackText": "That’s right! Fantastic detective work!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Lost & Found Office",
+      "time": "31:00–38:00",
+      "seconds": 420,
+      "focus": "memory; object names; possessives; descriptions",
+      "clue": "A note: “I want to help.”",
+      "clueAsset": "evidence/helpful_note",
+      "tasks": [
+        {
+          "id": "S5_T1",
+          "title": "What Is Missing?",
+          "mechanic": "memory",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S5_T1_Q01",
+              "index": 1,
+              "prompt": "What is missing?",
+              "correct": "memory_yellow_hat",
+              "correctId": "memory_yellow_hat",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_yellow_hat",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_yellow_hat"
+            },
+            {
+              "id": "S5_T1_Q02",
+              "index": 2,
+              "prompt": "What is missing?",
+              "correct": "memory_blue_cup",
+              "correctId": "memory_blue_cup",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_blue_cup",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_blue_cup"
+            },
+            {
+              "id": "S5_T1_Q03",
+              "index": 3,
+              "prompt": "What is missing?",
+              "correct": "memory_silver_coin",
+              "correctId": "memory_silver_coin",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_silver_coin",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_silver_coin"
+            },
+            {
+              "id": "S5_T1_Q04",
+              "index": 4,
+              "prompt": "What is missing?",
+              "correct": "memory_red_star",
+              "correctId": "memory_red_star",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_red_star",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_red_star"
+            },
+            {
+              "id": "S5_T1_Q05",
+              "index": 5,
+              "prompt": "What is missing?",
+              "correct": "memory_gold_bell",
+              "correctId": "memory_gold_bell",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_gold_bell",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_gold_bell"
+            },
+            {
+              "id": "S5_T1_Q06",
+              "index": 6,
+              "prompt": "What is missing?",
+              "correct": "memory_purple_book",
+              "correctId": "memory_purple_book",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_purple_book",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_purple_book"
+            },
+            {
+              "id": "S5_T1_Q07",
+              "index": 7,
+              "prompt": "What is missing?",
+              "correct": "memory_white_glove",
+              "correctId": "memory_white_glove",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_white_glove",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_white_glove"
+            },
+            {
+              "id": "S5_T1_Q08",
+              "index": 8,
+              "prompt": "What is missing?",
+              "correct": "memory_green_scarf",
+              "correctId": "memory_green_scarf",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_green_scarf",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_green_scarf"
+            },
+            {
+              "id": "S5_T1_Q09",
+              "index": 9,
+              "prompt": "What is missing?",
+              "correct": "memory_red_apple",
+              "correctId": "memory_red_apple",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_red_apple",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_red_apple"
+            },
+            {
+              "id": "S5_T1_Q10",
+              "index": 10,
+              "prompt": "What is missing?",
+              "correct": "memory_small_spoon",
+              "correctId": "memory_small_spoon",
+              "options": [
+                "memory_yellow_hat",
+                "memory_blue_cup",
+                "memory_silver_coin",
+                "memory_red_star",
+                "memory_gold_bell",
+                "memory_purple_book",
+                "memory_white_glove",
+                "memory_green_scarf",
+                "memory_red_apple",
+                "memory_small_spoon"
+              ],
+              "assetId": "memory/memory_small_spoon",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "missingAssetId": "memory_small_spoon"
+            }
+          ]
+        },
+        {
+          "id": "S5_T2",
+          "title": "Whose Is It?",
+          "mechanic": "owner_match",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S5_T2_Q01",
+              "index": 1,
+              "prompt": "The artist has got a paintbrush.",
+              "correct": "item_paintbrush",
+              "correctId": "item_paintbrush",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_paintbrush",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_artist",
+              "correctItem": "item_paintbrush"
+            },
+            {
+              "id": "S5_T2_Q02",
+              "index": 2,
+              "prompt": "The explorer has got a map.",
+              "correct": "item_map",
+              "correctId": "item_map",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_map",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_explorer",
+              "correctItem": "item_map"
+            },
+            {
+              "id": "S5_T2_Q03",
+              "index": 3,
+              "prompt": "The king has got a crown.",
+              "correct": "item_crown",
+              "correctId": "item_crown",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_crown",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_king",
+              "correctItem": "item_crown"
+            },
+            {
+              "id": "S5_T2_Q04",
+              "index": 4,
+              "prompt": "The scientist has got a blue bottle.",
+              "correct": "item_bottle_blue",
+              "correctId": "item_bottle_blue",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_bottle_blue",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_scientist",
+              "correctItem": "item_bottle_blue"
+            },
+            {
+              "id": "S5_T2_Q05",
+              "index": 5,
+              "prompt": "The pirate has got a compass.",
+              "correct": "item_compass",
+              "correctId": "item_compass",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_compass",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_pirate",
+              "correctItem": "item_compass"
+            },
+            {
+              "id": "S5_T2_Q06",
+              "index": 6,
+              "prompt": "The guard has got a torch.",
+              "correct": "item_torch",
+              "correctId": "item_torch",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_torch",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_guard",
+              "correctItem": "item_torch"
+            },
+            {
+              "id": "S5_T2_Q07",
+              "index": 7,
+              "prompt": "The cook has got a spoon.",
+              "correct": "item_spoon",
+              "correctId": "item_spoon",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_spoon",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_cook",
+              "correctItem": "item_spoon"
+            },
+            {
+              "id": "S5_T2_Q08",
+              "index": 8,
+              "prompt": "The girl has got a pink ribbon.",
+              "correct": "item_ribbon_pink",
+              "correctId": "item_ribbon_pink",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_ribbon_pink",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_girl",
+              "correctItem": "item_ribbon_pink"
+            },
+            {
+              "id": "S5_T2_Q09",
+              "index": 9,
+              "prompt": "The boy has got a toy dinosaur.",
+              "correct": "item_toy_dinosaur",
+              "correctId": "item_toy_dinosaur",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_toy_dinosaur",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_boy",
+              "correctItem": "item_toy_dinosaur"
+            },
+            {
+              "id": "S5_T2_Q10",
+              "index": 10,
+              "prompt": "The queen has got a golden necklace.",
+              "correct": "item_necklace_gold",
+              "correctId": "item_necklace_gold",
+              "options": [
+                "item_paintbrush",
+                "item_map",
+                "item_crown",
+                "item_bottle_blue",
+                "item_compass",
+                "item_torch",
+                "item_spoon",
+                "item_ribbon_pink",
+                "item_toy_dinosaur",
+                "item_necklace_gold"
+              ],
+              "assetId": "owners/items/item_necklace_gold",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctOwner": "owner_queen",
+              "correctItem": "item_necklace_gold"
+            }
+          ]
+        },
+        {
+          "id": "S5_T3",
+          "title": "The Detective Evidence Board",
+          "mechanic": "true_false",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S5_T3_Q01",
+              "index": 1,
+              "prompt": "The footprints are small.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/small_footprints",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S5_T3_Q02",
+              "index": 2,
+              "prompt": "The footprints are on the ceiling.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/small_footprints",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S5_T3_Q03",
+              "index": 3,
+              "prompt": "There is grey fur on the floor.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/grey_fur",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S5_T3_Q04",
+              "index": 4,
+              "prompt": "The fur is pink.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/grey_fur",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S5_T3_Q05",
+              "index": 5,
+              "prompt": "There is a long tail in the photo.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/long_tail",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S5_T3_Q06",
+              "index": 6,
+              "prompt": "The Moon Key is made of wood.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/gold_dust",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S5_T3_Q07",
+              "index": 7,
+              "prompt": "There is gold dust on the stairs.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/gold_dust",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S5_T3_Q08",
+              "index": 8,
+              "prompt": "The note says, “I want to help.”",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "evidence/helpful_note",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S5_T3_Q09",
+              "index": 9,
+              "prompt": "The museum window is broken.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "backgrounds/security_hall_clean",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S5_T3_Q10",
+              "index": 10,
+              "prompt": "The clock is working.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "The Clock Tower",
+      "time": "38:00–45:00",
+      "seconds": 420,
+      "focus": "numbers; missing words; grammar revision; deduction",
+      "clue": "Pip and the Moon Key",
+      "clueAsset": "evidence/pip_with_key",
+      "tasks": [
+        {
+          "id": "S6_T1",
+          "title": "Fix the Giant Clock",
+          "mechanic": "clock_placement",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S6_T1_Q01",
+              "index": 1,
+              "prompt": "Put twelve at the top.",
+              "correct": 12,
+              "correctId": 12,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_12",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_12"
+            },
+            {
+              "id": "S6_T1_Q02",
+              "index": 2,
+              "prompt": "Put six at the bottom.",
+              "correct": 6,
+              "correctId": 6,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_06",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_6"
+            },
+            {
+              "id": "S6_T1_Q03",
+              "index": 3,
+              "prompt": "Put three on the right.",
+              "correct": 3,
+              "correctId": 3,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_03",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_3"
+            },
+            {
+              "id": "S6_T1_Q04",
+              "index": 4,
+              "prompt": "Put nine on the left.",
+              "correct": 9,
+              "correctId": 9,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_09",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_9"
+            },
+            {
+              "id": "S6_T1_Q05",
+              "index": 5,
+              "prompt": "Put one after twelve.",
+              "correct": 1,
+              "correctId": 1,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_01",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_1"
+            },
+            {
+              "id": "S6_T1_Q06",
+              "index": 6,
+              "prompt": "Put two after one.",
+              "correct": 2,
+              "correctId": 2,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_02",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_2"
+            },
+            {
+              "id": "S6_T1_Q07",
+              "index": 7,
+              "prompt": "Put four after three.",
+              "correct": 4,
+              "correctId": 4,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_04",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_4"
+            },
+            {
+              "id": "S6_T1_Q08",
+              "index": 8,
+              "prompt": "Put five after four.",
+              "correct": 5,
+              "correctId": 5,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_05",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_5"
+            },
+            {
+              "id": "S6_T1_Q09",
+              "index": 9,
+              "prompt": "Put seven after six.",
+              "correct": 7,
+              "correctId": 7,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_07",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_7"
+            },
+            {
+              "id": "S6_T1_Q10",
+              "index": 10,
+              "prompt": "Put eight after seven.",
+              "correct": 8,
+              "correctId": 8,
+              "options": [
+                12,
+                6,
+                3,
+                9,
+                1,
+                2,
+                4,
+                5,
+                7,
+                8
+              ],
+              "assetId": "clock/clock_digit_08",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "targetId": "slot_8"
+            }
+          ]
+        },
+        {
+          "id": "S6_T2",
+          "title": "Repair the Broken Sentences",
+          "mechanic": "multiple_choice",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S6_T2_Q01",
+              "index": 1,
+              "prompt": "There ___ a key in the box.",
+              "correct": "is",
+              "correctId": "is",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "is",
+                "are"
+              ]
+            },
+            {
+              "id": "S6_T2_Q02",
+              "index": 2,
+              "prompt": "There ___ three doors in the hall.",
+              "correct": "are",
+              "correctId": "are",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "is",
+                "are"
+              ]
+            },
+            {
+              "id": "S6_T2_Q03",
+              "index": 3,
+              "prompt": "The cat is ___ the table.",
+              "correct": "under",
+              "correctId": "under",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "under",
+                "above"
+              ]
+            },
+            {
+              "id": "S6_T2_Q04",
+              "index": 4,
+              "prompt": "The dinosaur ___ got a long tail.",
+              "correct": "has",
+              "correctId": "has",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "has",
+                "have"
+              ]
+            },
+            {
+              "id": "S6_T2_Q05",
+              "index": 5,
+              "prompt": "The paintings ___ moving.",
+              "correct": "are",
+              "correctId": "are",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "is",
+                "are"
+              ]
+            },
+            {
+              "id": "S6_T2_Q06",
+              "index": 6,
+              "prompt": "The mummy is ___ a hat.",
+              "correct": "wearing",
+              "correctId": "wearing",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "wearing",
+                "wear"
+              ]
+            },
+            {
+              "id": "S6_T2_Q07",
+              "index": 7,
+              "prompt": "The owl ___ fly.",
+              "correct": "can",
+              "correctId": "can",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "can",
+                "can’t"
+              ]
+            },
+            {
+              "id": "S6_T2_Q08",
+              "index": 8,
+              "prompt": "The mouse is ___ the clock.",
+              "correct": "behind",
+              "correctId": "behind",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "behind",
+                "on"
+              ]
+            },
+            {
+              "id": "S6_T2_Q09",
+              "index": 9,
+              "prompt": "___ there two lamps?",
+              "correct": "Are",
+              "correctId": "Are",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "Is",
+                "Are"
+              ]
+            },
+            {
+              "id": "S6_T2_Q10",
+              "index": 10,
+              "prompt": "The clock ___ working.",
+              "correct": "isn’t",
+              "correctId": "isn’t",
+              "options": [
+                "is",
+                "are",
+                "under",
+                "has",
+                "wearing",
+                "can",
+                "behind",
+                "Are",
+                "isn’t"
+              ],
+              "assetId": "clock/clock_face_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "choices": [
+                "isn’t",
+                "aren’t"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S6_T3",
+          "title": "Who Took the Moon Key?",
+          "mechanic": "true_false",
+          "coreQuestionIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "questions": [
+            {
+              "id": "S6_T3_Q01",
+              "index": 1,
+              "prompt": "The mystery animal is small.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S6_T3_Q02",
+              "index": 2,
+              "prompt": "It has got grey fur.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S6_T3_Q03",
+              "index": 3,
+              "prompt": "It has got a long tail.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S6_T3_Q04",
+              "index": 4,
+              "prompt": "It has got wings.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S6_T3_Q05",
+              "index": 5,
+              "prompt": "It can fly.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S6_T3_Q06",
+              "index": 6,
+              "prompt": "It has got big round ears.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S6_T3_Q07",
+              "index": 7,
+              "prompt": "It is wearing a gold crown.",
+              "correct": false,
+              "correctId": false,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": false
+            },
+            {
+              "id": "S6_T3_Q08",
+              "index": 8,
+              "prompt": "It is hiding in the clock.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S6_T3_Q09",
+              "index": 9,
+              "prompt": "It has got the Moon Key.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            },
+            {
+              "id": "S6_T3_Q10",
+              "index": 10,
+              "prompt": "It wants to help.",
+              "correct": true,
+              "correctId": true,
+              "options": [
+                true,
+                false
+              ],
+              "assetId": "characters/suspect_grey_mouse_neutral_3d",
+              "feedbackText": "That’s right! Fantastic detective work!",
+              "correctBoolean": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
