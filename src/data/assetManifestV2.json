@@ -84,12 +84,19 @@
       "mode": "RGBA"
     },
     {
-      "path": "/assets/museum/v2/characters/professor_hoot_3d.png",
+      "path": "/assets/museum/v2/repaired/professor_hoot_opaque.png",
       "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "originalPath": "/assets/museum/v2/characters/professor_hoot_3d.png",
+      "originalSize": [
         1024,
         1024
       ],
-      "mode": "RGBA"
+      "assetId": "characters/professor_hoot_3d",
+      "source": "imagegen_owl_alpha_repair"
     },
     {
       "path": "/assets/museum/v2/characters/suspect_bat_3d.png",

@@ -76,7 +76,7 @@ export const museumV2Assets = {
   "clock/clock_gold_gear_03": "/assets/museum/v2/clock/clock_gold_gear_03.png",
   "clock/clock_hand_hour": "/assets/museum/v2/clock/clock_hand_hour.png",
   "characters/suspect_owl_3d": "/assets/museum/v2/characters/suspect_owl_3d.png",
-  "characters/professor_hoot_3d": "/assets/museum/v2/characters/professor_hoot_3d.png",
+  "characters/professor_hoot_3d": "/assets/museum/v2/repaired/professor_hoot_opaque.png",
   "characters/suspect_bat_3d": "/assets/museum/v2/characters/suspect_bat_3d.png",
   "characters/suspect_cat_3d": "/assets/museum/v2/characters/suspect_cat_3d.png",
   "characters/mummy_friendly_3d": "/assets/museum/v2/characters/mummy_friendly_3d.png",

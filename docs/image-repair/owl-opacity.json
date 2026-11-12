@@ -1,0 +1,8 @@
+{
+  "method": "built-in imagegen edit",
+  "prompt": "Use case: precise-object-edit. Repair the alpha damage in this game mascot illustration. Preserve this exact friendly brown owl detective, full body, brown tweed detective cap, round gold glasses, burgundy vest and bow tie, gold pocket-watch chain, raised magnifying glass, warm detailed 3D storybook rendering, pose and cheerful expression. The reference has accidental transparent holes in the face, eyes, cheek feathers, white shirt and belly. Restore all missing areas naturally: complete cream feathered face and belly, two complete eyes, intact plumage, solid opaque clothing, head, wings and feet. The entire owl and clothing must be opaque, with no holes or ghost-like patches. Transparent background only OUTSIDE the complete character silhouette; the magnifying-glass lens may have natural glass appearance. Keep the complete owl, cap, feathers, feet and magnifying glass inside a square canvas with generous empty transparent margins. No background, floor, haze, lettering, logo or added objects. This is a polished clean game sprite, not a new character design.",
+  "sourcePath": "C:\\Users\\Max\\.codex\\generated_images\\01a1cf94-67ce-7090-953c-494d9d4ca859\\exec-040cc200-2075-4119-a614-ee839efb0c69.png",
+  "savedPath": "public/assets/museum/v2/repaired/professor_hoot_opaque.png",
+  "assetId": "characters/professor_hoot_3d",
+  "cssRepair": "Removed 35% opacity on narrow screens and placed the owl below introductory text to prevent overlap."
+}
